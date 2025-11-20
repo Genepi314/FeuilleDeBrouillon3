@@ -23,6 +23,7 @@ public class DialTrigger : MonoBehaviour
     {
         if (dialoguePossible)
         {
+            Debug.Log("Asked dialogue");
             dialogueLauncher.LaunchDialogue();
         }
     }
