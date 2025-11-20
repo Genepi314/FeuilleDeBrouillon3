@@ -3,19 +3,19 @@ using UnityEngine.InputSystem;
 
 public class PlayerControler : MonoBehaviour
 {
-    [SerializeField] private D1Launcher dialogueLauncher;
+    [SerializeField] private DialTrigger dialogueTrigger;
     // Pour les contrôles, of course :
     [SerializeField] private InputActionAsset actions;
-    // [SerializeField] private float speed;
-    // private InputAction yAxis;
-    // private InputAction xAxis;
+    [SerializeField] private float speed;
+    private InputAction yAxis;
+    private InputAction xAxis;
 
 
     void Awake()
     {
-        // xAxis = actions.FindActionMap("Player").FindAction("MoveX");
-        // yAxis = actions.FindActionMap("Player").FindAction("MoveY");
-        dialogueLauncher = GetComponent<D1Launcher>();
+        xAxis = actions.FindActionMap("Player").FindAction("MoveX");
+        yAxis = actions.FindActionMap("Player").FindAction("MoveY");
+
     }
 
     void OnEnable()
@@ -31,24 +31,29 @@ public class PlayerControler : MonoBehaviour
         actions.FindActionMap("Player").FindAction("Interact").performed -= OnInteract;
     }
 
-    // void Update()
-    // {
-    //     MoveX();
-    //     MoveY();
-    // }
+    void Update()
+    {
+        Move();
+    }
 
-    // private void MoveX()
-    // {
-    //     transform.Translate(xAxis.ReadValue<float>() * speed * Time.deltaTime, 0f, 0f);
-    // }
-    // private void MoveY()
-    // {
-    //     transform.Translate(0f, yAxis.ReadValue<float>() * speed * Time.deltaTime, 0f);
-    // }
+    private void Move()
+    {
+        MoveX();
+        MoveY();
+    }
+    private void MoveX()
+    {
+        transform.Translate(xAxis.ReadValue<float>() * speed * Time.deltaTime, 0f, 0f);
+    }
+    private void MoveY()
+    {
+        transform.Translate(0f, yAxis.ReadValue<float>() * speed * Time.deltaTime, 0f);
+    }
 
     private void OnInteract(InputAction.CallbackContext context)
     {
-        dialogueLauncher.ButtonInteractPressed();
+        // Debug.Log("Entered OnInteract");
+        dialogueTrigger.ButtonInteractPressed();
     }
 
 }

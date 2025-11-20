@@ -12,12 +12,7 @@ public class D1Launcher : MonoBehaviour
     private int nextLineIndex;
     private bool dialogueStarted = false;
 
-    // void Start()
-    // {
-
-    // }
-
-    public void ButtonInteractPressed()
+    public void LaunchDialogue()
     {
         if(dialogueStarted == false)
         {
