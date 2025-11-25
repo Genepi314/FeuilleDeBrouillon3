@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class DialTrigger : MonoBehaviour
 {
-    [SerializeField] D1Launcher dialogueLauncher;
+    [SerializeField] DialLauncher dialogueLauncher;
     [SerializeField] PlayerController playerController;
     private bool dialoguePossible = false;
     private void OnTriggerEnter2D(Collider2D collision)

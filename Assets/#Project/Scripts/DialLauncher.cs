@@ -3,7 +3,7 @@ using Unity.VisualScripting;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class D1Launcher : MonoBehaviour
+public class DialLauncher : MonoBehaviour
 {
     [SerializeField] NPCDials dialogueObject;
     [SerializeField] GameObject dialogueDisplay;

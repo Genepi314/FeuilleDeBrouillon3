@@ -5,4 +5,5 @@ using System.Collections.Generic;
 public class Dialogue
 {
     public List<Line> dialogue = new List<Line>();
+    public bool hasBeenPlayed;
 }
