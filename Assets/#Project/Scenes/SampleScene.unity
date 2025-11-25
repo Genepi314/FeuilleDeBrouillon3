@@ -151,7 +151,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dff5aa139c710843918690c8b7c209c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueTrigger: {fileID: 2069120322}
   actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   speed: 5
 --- !u!212 &285803715
@@ -613,7 +612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b45aed1434db52648b2ceb7e7afcc444, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcDial1: {fileID: 11400000, guid: 6b8cd4b4b606c4e4280640c85fb6db46, type: 2}
+  dialogueObject: {fileID: 11400000, guid: 6b8cd4b4b606c4e4280640c85fb6db46, type: 2}
   dialogueDisplay: {fileID: 1329902363}
   characterNameArea: {fileID: 2006444118}
   dialogueLineArea: {fileID: 1908006798}
@@ -784,9 +783,9 @@ GameObject:
   m_Component:
   - component: {fileID: 650943792}
   - component: {fileID: 650943791}
+  - component: {fileID: 650943788}
   - component: {fileID: 650943790}
   - component: {fileID: 650943789}
-  - component: {fileID: 650943788}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Untagged
@@ -806,10 +805,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b45aed1434db52648b2ceb7e7afcc444, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcDial1: {fileID: 0}
-  dialogueDisplay: {fileID: 0}
-  characterNameArea: {fileID: 0}
-  dialogueLineArea: {fileID: 0}
+  dialogueObject: {fileID: 11400000, guid: 5038f85d44d16d146930fc55da6c29f0, type: 2}
+  dialogueDisplay: {fileID: 1329902363}
+  characterNameArea: {fileID: 2006444118}
+  dialogueLineArea: {fileID: 1908006798}
 --- !u!61 &650943789
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -871,7 +870,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -882,7 +881,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!212 &650943791
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1051,6 +1050,7 @@ GameObject:
   m_Component:
   - component: {fileID: 910655791}
   - component: {fileID: 910655792}
+  - component: {fileID: 910655793}
   m_Layer: 0
   m_Name: DIalogueTrigger
   m_TagString: Untagged
@@ -1085,7 +1085,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46f47a44e1e10b740a9de4d215112204, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueLauncher: {fileID: 0}
+  dialogueLauncher: {fileID: 650943788}
+  playerController: {fileID: 285803714}
+--- !u!58 &910655793
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910655790}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 1.5
 --- !u!1 &1149531984
 GameObject:
   m_ObjectHideFlags: 0
@@ -1698,6 +1735,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueLauncher: {fileID: 562318338}
+  playerController: {fileID: 285803714}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

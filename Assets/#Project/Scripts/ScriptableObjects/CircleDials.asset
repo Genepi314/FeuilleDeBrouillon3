@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5aa27faf01c473848b8d688eb337fce4, type: 3}
-  m_Name: Dialogue1
+  m_Name: CircleDials
   m_EditorClassIdentifier: 
-  dialogue:
-  - characterName: Square
-    sentence: Hi !
-  - characterName: Square
-    sentence: I am Square.
+  npcDials:
+  - dialogue:
+    - characterName: Circle
+      sentence: Hello.
+    - characterName: Circle
+      sentence: I am Circle.

@@ -1,9 +1,9 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerControler : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private DialTrigger dialogueTrigger;
+    private DialTrigger dialogueTrigger;
     // Pour les contrôles, of course :
     [SerializeField] private InputActionAsset actions;
     [SerializeField] private float speed;
@@ -52,8 +52,23 @@ public class PlayerControler : MonoBehaviour
 
     private void OnInteract(InputAction.CallbackContext context)
     {
-        // Debug.Log("Entered OnInteract");
-        dialogueTrigger.ButtonInteractPressed();
+        Debug.Log("Entered OnInteract");
+        if (dialogueTrigger is not null)
+        {
+            dialogueTrigger.ButtonInteractPressed();
+        }
+    }
+
+    public void GetDialogueTrigger(DialTrigger collidedObject)
+    {
+        // Debug.Log("Entered GetDialogueTrigger");
+        dialogueTrigger = collidedObject;
+    }
+
+    public void RemoveDialogueTrigger()
+    {
+        // Debug.Log("Entered RemoveDialogueTrigger()");
+        dialogueTrigger = null;
     }
 
 }

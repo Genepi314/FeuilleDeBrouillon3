@@ -1,10 +1,8 @@
-using System.Collections.Generic;
 using UnityEngine;
+using System.Collections.Generic;
 
-
-[CreateAssetMenu(fileName = "Dialogue", menuName = "Scriptable Objects/Dialogue")]
 [System.Serializable]
-public class Dialogue : ScriptableObject
+public class Dialogue
 {
     public List<Line> dialogue = new List<Line>();
 }
