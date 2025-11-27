@@ -224,9 +224,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c22d4fddc7ae1a64a87ecf1be04c88af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueManager: {fileID: 716017878}
+  dialogueDisplayer: {fileID: 0}
   playerController: {fileID: 822586443}
-  npcStory: {fileID: 0}
+  npcStory: {fileID: 11400000, guid: 6b8cd4b4b606c4e4280640c85fb6db46, type: 2}
 --- !u!1 &539700774
 GameObject:
   m_ObjectHideFlags: 0
@@ -463,7 +463,7 @@ GameObject:
   - component: {fileID: 716017879}
   - component: {fileID: 716017878}
   m_Layer: 0
-  m_Name: DialogueManager
+  m_Name: DialogueDisplayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -611,7 +611,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1968482072522778854, guid: b61724668694fa641b8ea68c8acab716, type: 3}
       propertyPath: m_Name
-      value: DialogueDisplay
+      value: DialogueLayout
       objectReference: {fileID: 0}
     - target: {fileID: 1968482072522778854, guid: b61724668694fa641b8ea68c8acab716, type: 3}
       propertyPath: m_IsActive
@@ -773,9 +773,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c22d4fddc7ae1a64a87ecf1be04c88af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueManager: {fileID: 716017878}
+  dialogueDisplayer: {fileID: 0}
   playerController: {fileID: 822586443}
-  npcStory: {fileID: 0}
+  npcStory: {fileID: 11400000, guid: 5038f85d44d16d146930fc55da6c29f0, type: 2}
 --- !u!1 &1746240497
 GameObject:
   m_ObjectHideFlags: 0

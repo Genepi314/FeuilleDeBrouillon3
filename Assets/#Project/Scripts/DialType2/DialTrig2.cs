@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class DialTrig2 : MonoBehaviour
 {
-    [SerializeField] DialManager dialogueManager;
+    [SerializeField] DialogueDisplayer dialogueDisplayer;
     [SerializeField] PlayerContr2 playerController;
     [SerializeField] private NPCDials npcStory;
     private bool dialoguePossible = false;
@@ -29,8 +29,8 @@ public class DialTrig2 : MonoBehaviour
         if (dialoguePossible)
         {
             Debug.Log("Gave dialogue to dialogueManager");
-            dialogueManager.SetDialogue(npcStory);
-            dialogueManager.LaunchDialogue();
+            dialogueDisplayer.SetDialogue(npcStory);
+            dialogueDisplayer.DisplayDialogue();
         }
     }
 }

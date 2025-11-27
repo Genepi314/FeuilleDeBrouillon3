@@ -3,16 +3,24 @@ using TMPro;
 using Unity.VisualScripting;
 using System.Collections.Generic;
 
-public class DialManager : MonoBehaviour
+public class DialogueDisplayer : MonoBehaviour
 {
+    // Dialogue Display
     [SerializeField] GameObject dialogueDisplay;
     [SerializeField] TextMeshProUGUI characterNameArea;
     [SerializeField] TextMeshProUGUI dialogueLineArea;
+
+    // DialogueObject to display, gotten through public function SetDialogue() via NPCs
     private NPCDials npcStory;
+
+    // Variables for moving through the dialogueLines
     private int dialogueStartIndex = 0;
     private int nextLineIndex;
     private bool dialogueStarted = false;
-    public void LaunchDialogue()
+
+
+
+    public void DisplayDialogue()
     {
         if(dialogueStarted == false)
         {
@@ -51,4 +59,6 @@ public class DialManager : MonoBehaviour
     {
         this.npcStory = npcStory;
     }
+
+
 }
