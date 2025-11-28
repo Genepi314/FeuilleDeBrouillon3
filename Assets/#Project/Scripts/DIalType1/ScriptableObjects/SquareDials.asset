@@ -21,7 +21,7 @@ MonoBehaviour:
     hasBeenPlayed: 0
   - dialogue:
     - characterName: Square
-      sentence: Have you talked to CIrcle ?
+      sentence: Have you talked to Circle ?
     - characterName: Square
       sentence: She's one of a kind...
     hasBeenPlayed: 0

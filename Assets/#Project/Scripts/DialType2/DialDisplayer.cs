@@ -11,7 +11,7 @@ public class DialogueDisplayer : MonoBehaviour
     [SerializeField] TextMeshProUGUI dialogueLineArea;
 
     // DialogueObject to display, gotten through public function SetDialogue() via NPCs
-    private NPCDials npcStory;
+    private Dialogue currentDialogue;
 
     // Variables for moving through the dialogueLines
     private int dialogueStartIndex = 0;
@@ -27,14 +27,14 @@ public class DialogueDisplayer : MonoBehaviour
             StartDialogue();
             dialogueStarted = true;
         }
-        else if (npcStory.npcDials[0].dialogue.Count > nextLineIndex) // Compte des lignes qui se trouve dans le dialogue No.0 de npcDials, voir dialogueObject (qui est un scriptable object contenant tous les dialoue d'un NPC)
+        else if (currentDialogue.dialogue.Count > nextLineIndex) // Compte des lignes qui se trouve dans le dialogue No.0 de npcDials, voir dialogueObject (qui est un scriptable object contenant tous les dialoue d'un NPC)
         {
-            characterNameArea.text = npcStory.npcDials[0].dialogue[nextLineIndex].characterName;
-            dialogueLineArea.text = npcStory.npcDials[0].dialogue[nextLineIndex].sentence;
+            characterNameArea.text = currentDialogue.dialogue[nextLineIndex].characterName;
+            dialogueLineArea.text = currentDialogue.dialogue[nextLineIndex].sentence;
             
         }
         nextLineIndex ++;
-        if (npcStory.npcDials[0].dialogue.Count < nextLineIndex)
+        if (currentDialogue.dialogue.Count < nextLineIndex)
         {
             EndDialogue();
             dialogueStarted = false;
@@ -46,8 +46,8 @@ public class DialogueDisplayer : MonoBehaviour
     {
         dialogueDisplay.SetActive(true);
         Debug.Log("Entered StartDialogue()");
-        characterNameArea.text = npcStory.npcDials[0].dialogue[0].characterName;
-        dialogueLineArea.text = npcStory.npcDials[0].dialogue[0].sentence;
+        characterNameArea.text = currentDialogue.dialogue[0].characterName;
+        dialogueLineArea.text = currentDialogue.dialogue[0].sentence;
     }
 
     private void EndDialogue()
@@ -55,9 +55,9 @@ public class DialogueDisplayer : MonoBehaviour
         dialogueDisplay.SetActive(false);
     }
 
-    public void SetDialogue(NPCDials npcStory)
+    public void SetDialogue(Dialogue currentDialogue)
     {
-        this.npcStory = npcStory;
+        this.currentDialogue = currentDialogue;
     }
 
 

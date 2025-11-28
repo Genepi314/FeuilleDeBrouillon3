@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class DialTrig2 : MonoBehaviour
@@ -11,7 +12,7 @@ public class DialTrig2 : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             playerController.GetDialogueTrigger(this);
-            // Debug.Log("Entered dialogueTrigger Trigger");
+            // Debug.Log("Entered dialogueTrigger's OnTriggerEnter2D");
             dialoguePossible = true;
         }
     }
@@ -28,9 +29,27 @@ public class DialTrig2 : MonoBehaviour
     {
         if (dialoguePossible)
         {
-            Debug.Log("Gave dialogue to dialogueManager");
-            dialogueDisplayer.SetDialogue(npcStory);
-            dialogueDisplayer.DisplayDialogue();
+            // Debug.Log("ButtonInteractPressed, DialoguePossible");
+            // Debug.Log("nom du gameObject parent : " + transform.parent.gameObject.name);
+            if (transform.parent.gameObject.name == "Circle")
+            {
+                dialogueDisplayer.SetDialogue(npcStory.npcDials[0]);
+                dialogueDisplayer.DisplayDialogue();
+                DialTracker.talkedToCircle = true;
+            }
+            else if(transform.parent.gameObject.name == "Square")
+            {
+                if(DialTracker.talkedToCircle == false)
+                {
+                    dialogueDisplayer.SetDialogue(npcStory.npcDials[0]);
+                    dialogueDisplayer.DisplayDialogue();
+                }
+                else
+                {
+                    dialogueDisplayer.SetDialogue(npcStory.npcDials[1]);
+                    dialogueDisplayer.DisplayDialogue();
+                }
+            }
         }
     }
 }
