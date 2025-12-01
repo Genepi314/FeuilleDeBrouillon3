@@ -354,7 +354,7 @@
                     "name": "1D Axis",
                     "id": "8867fb07-8d1f-4eee-98b7-a7d3b5bf732f",
                     "path": "1DAxis",
-                    "interactions": "",
+                    "interactions": "Press",
                     "processors": "",
                     "groups": "",
                     "action": "MoveX",
