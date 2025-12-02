@@ -3,32 +3,42 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class TileController : MonoBehaviour
+public class ByTileController : MonoBehaviour
 {
+
     [SerializeField] private InputActionAsset actions;
-    // [SerializeField] private float speed;
+    [SerializeField] private AudioTrigger audioTrigger;
+
+    private Recorder recorder;
     private InputAction yAxis;
     private InputAction xAxis;   
     private bool isMoving = false;
     private Vector3 startPosition;
     private Vector3 targetPosition;
-    private float timeToMove = 0.2f;
+    private float timeToMove = 0.15f;
+
     void Awake()
     {
         xAxis = actions.FindActionMap("Player").FindAction("MoveX");
         yAxis = actions.FindActionMap("Player").FindAction("MoveY");
+
+        recorder = gameObject.GetComponent<Recorder>();
     }
 
     void OnEnable()
     {
         actions.FindActionMap("Player").Enable();
         actions.FindActionMap("Player").FindAction("Interact").performed += OnInteract;        
+        actions.FindActionMap("Player").FindAction("Record").performed += OnRecordButton;   
+        actions.FindActionMap("Player").FindAction("Play").performed += OnPlayButton;   
     }
 
     void OnDisable()
     {
         actions.FindActionMap("Player").Disable();
         actions.FindActionMap("Player").FindAction("Interact").performed -= OnInteract;
+        actions.FindActionMap("Player").FindAction("Record").performed -= OnRecordButton;        
+        actions.FindActionMap("Player").FindAction("Play").performed -= OnPlayButton;   
     }
 
     void Update()
@@ -37,11 +47,6 @@ public class TileController : MonoBehaviour
         {
             StartCoroutine(Move());
         }
-    }
-
-    private void OnInteract(InputAction.CallbackContext context)
-    {
-        
     }
 
     private IEnumerator Move()
@@ -77,5 +82,21 @@ public class TileController : MonoBehaviour
         transform.position = targetPosition;
 
         isMoving = false;
+    }
+
+    private void OnInteract(InputAction.CallbackContext context)
+    {
+        
+    }
+
+    private void OnRecordButton(InputAction.CallbackContext context)
+    {
+        audioTrigger.OnRecordButtonPressed();
+    }
+
+    private void OnPlayButton(InputAction.CallbackContext context)
+    {
+
+        recorder.PlayRecord();
     }
 }
