@@ -7,7 +7,7 @@ public class ByTileController : MonoBehaviour
 {
 
     [SerializeField] private InputActionAsset actions;
-    [SerializeField] private AudioTrigger audioTrigger;
+    // private AudioTrigger audioTrigger;
 
     private Recorder recorder;
     private InputAction yAxis;
@@ -91,7 +91,7 @@ public class ByTileController : MonoBehaviour
 
     private void OnRecordButton(InputAction.CallbackContext context)
     {
-        audioTrigger.OnRecordButtonPressed();
+        recorder.OnRecordButtonPressed();
     }
 
     private void OnPlayButton(InputAction.CallbackContext context)

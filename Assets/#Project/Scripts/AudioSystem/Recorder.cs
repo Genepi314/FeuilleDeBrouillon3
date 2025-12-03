@@ -4,14 +4,25 @@ using UnityEngine;
 
 public class Recorder : MonoBehaviour
 {
+    // Moyen le plus simple de faire passer un audioTrigger au Recorder. Mais est-ce que c'est un problème ? Sachant que par la suite la classe sera probablement statique, je dirais que ça passe :
+    [HideInInspector] public AudioTrigger audioTrigger;
+
     private AudioSource audioSource;
     private AudioSource recordedTrack;
-    bool isPlaying;
+    private bool isPlaying;
     private Vector3 audioToPlayer;
     private float sampleStartTime;
     private float sampleEndTime;
     private float delay;
-    
+
+    public void OnRecordButtonPressed()
+    {
+
+        if(audioTrigger != null)
+        {
+            audioTrigger.OnRecordButtonPressed();
+        }
+    }
     public void Record(AudioSource audioSource)
     {
         sampleStartTime = audioSource.time;
@@ -25,6 +36,7 @@ public class Recorder : MonoBehaviour
     {
         sampleEndTime = audioSource.time;
         delay = sampleEndTime - sampleStartTime;
+        audioTrigger = null;
         Debug.Log("EndTime of the sample : " + sampleEndTime);
     }
 
