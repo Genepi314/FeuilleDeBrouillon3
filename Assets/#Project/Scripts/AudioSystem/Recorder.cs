@@ -12,7 +12,10 @@ public class Recorder : MonoBehaviour
     private bool isPlaying;
     private Vector3 audioToPlayer;
     private float sampleStartTime;
+    // For debug only :
     private float sampleEndTime;
+    private float unityStartTime;
+    private float unityEndTime;
     private float delay;
 
     public void OnRecordButtonPressed()
@@ -26,7 +29,8 @@ public class Recorder : MonoBehaviour
     public void Record(AudioSource audioSource)
     {
         sampleStartTime = audioSource.time;
-        Debug.Log("StartTime of the sample ? : " + sampleStartTime);
+        unityStartTime = Time.time;
+        Debug.Log("StartTime of the sample  : " + sampleStartTime);
         this.audioSource = audioSource;
         audioToPlayer = this.audioSource.transform.position - gameObject.transform.position;
         // Debug.Log("audioSource passed to recorder, distance to player = " + audioToPlayer);
@@ -34,9 +38,8 @@ public class Recorder : MonoBehaviour
 
     public void StopRecording()
     {
+        unityEndTime = Time.time;
         sampleEndTime = audioSource.time;
-        delay = sampleEndTime - sampleStartTime;
-        audioTrigger = null;
         Debug.Log("EndTime of the sample : " + sampleEndTime);
     }
 
@@ -68,7 +71,7 @@ public class Recorder : MonoBehaviour
 
     private IEnumerator EndOfSample()
     {
-        delay = sampleEndTime - sampleStartTime;
+        delay = unityEndTime - unityStartTime;
         yield return new WaitForSeconds(delay);
         recordedTrack.Stop();
         Destroy(recordedTrack);

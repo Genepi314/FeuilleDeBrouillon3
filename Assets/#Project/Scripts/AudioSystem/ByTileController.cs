@@ -8,6 +8,7 @@ public class ByTileController : MonoBehaviour
 
     [SerializeField] private InputActionAsset actions;
     // private AudioTrigger audioTrigger;
+    [SerializeField] private float timeToMove = 0.25f;
 
     private Recorder recorder;
     private InputAction yAxis;
@@ -15,7 +16,6 @@ public class ByTileController : MonoBehaviour
     private bool isMoving = false;
     private Vector3 startPosition;
     private Vector3 targetPosition;
-    private float timeToMove = 0.15f;
 
     void Awake()
     {

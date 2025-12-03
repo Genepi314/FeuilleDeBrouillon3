@@ -13,7 +13,6 @@ public class AudioTrigger : MonoBehaviour
             recordingPossible = true;
             recorder = collision.GetComponent<Recorder>();
             recorder.audioTrigger = this;
-            // Debug.Log("Player entered CrowTrigger");
         }
     }
 
@@ -21,7 +20,6 @@ public class AudioTrigger : MonoBehaviour
     {
         if (recordingPossible && !recordIsOn)
         {
-            // Debug.Log("RecordButton pressed");
             recorder.Record(gameObject.GetComponent<AudioSource>());
             recordIsOn = true;
         }
