@@ -16,6 +16,15 @@ public class AudioTrigger : MonoBehaviour
         }
     }
 
+    void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            recordingPossible = false;
+            recorder = null;
+        }
+    }
+
     public void OnRecordButtonPressed()
     {
         if (recordingPossible && !recordIsOn)
