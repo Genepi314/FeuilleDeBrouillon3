@@ -1,6 +1,9 @@
 using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 using NUnit.Framework;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Recorder : MonoBehaviour
 {
@@ -28,19 +31,39 @@ public class Recorder : MonoBehaviour
     }
     public void Record(AudioSource audioSource)
     {
-        sampleStartTime = audioSource.time;
-        unityStartTime = Time.time;
-        Debug.Log("StartTime of the sample  : " + sampleStartTime);
+        // // STYLE 1
+        // sampleStartTime = audioSource.time;
+        // unityStartTime = Time.time;
+        // this.audioSource = audioSource;
+        // audioToPlayer = this.audioSource.transform.position - gameObject.transform.position;
+
+        // STYLE 2
+
+        Tape tape = new Tape();
+        tape.audioSource = audioSource;
+        tape.sampleStartTime = audioSource.time;
+        tape.unityStartTime = Time.time;
         this.audioSource = audioSource;
         audioToPlayer = this.audioSource.transform.position - gameObject.transform.position;
-        // Debug.Log("audioSource passed to recorder, distance to player = " + audioToPlayer);
+        tape.distanceToPlayer = audioToPlayer;
+        TrackList.tapes.Add(tape);
+        Debug.Log("piste enregistrée dans Tracklist sous l'index 0 : " + TrackList.tapes[0].audioSource.clip);
     }
 
     public void StopRecording()
     {
-        unityEndTime = Time.time;
-        sampleEndTime = audioSource.time;
-        Debug.Log("EndTime of the sample : " + sampleEndTime);
+        // // SYLE 1
+        // unityEndTime = Time.time;
+        // // Pour debug uniquement :
+        // sampleEndTime = audioSource.time;
+        // Debug.Log("EndTime of the sample : " + sampleEndTime);
+
+        // STYLE 2
+        if (TrackList.tapes.Count() != 0)
+        {
+        TrackList.tapes.Last().unityEndTime = Time.time;
+        Debug.Log("piste enregistrée dans Tracklist sous l'index Last() : " + TrackList.tapes.Last().audioSource.clip);
+        }
     }
 
     public void PlayRecord()
