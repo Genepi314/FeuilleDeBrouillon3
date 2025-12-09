@@ -64,17 +64,6 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "",
-                    "id": "b3f66d0b-7751-423f-908b-a11c5bd95930",
-                    "path": "<Gamepad>/buttonNorth",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Gamepad",
-                    "action": "Interact",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
                     "name": "1D Axis",
                     "id": "8867fb07-8d1f-4eee-98b7-a7d3b5bf732f",
                     "path": "1DAxis",

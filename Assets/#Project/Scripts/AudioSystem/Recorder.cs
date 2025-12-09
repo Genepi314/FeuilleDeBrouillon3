@@ -1,7 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using NUnit.Framework;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -10,20 +11,25 @@ public class Recorder : MonoBehaviour
     // Moyen le plus simple de faire passer un audioTrigger au Recorder. Mais est-ce que c'est un problème ? Sachant que par la suite la classe sera probablement statique, je dirais que ça passe :
     [HideInInspector] public AudioTrigger audioTrigger;
 
-    private AudioSource audioSource;
-    private AudioSource recordedTrack;
-    private bool isPlaying;
+
     private Vector3 audioToPlayer;
-    private float sampleStartTime;
-    // For debug only :
-    private float sampleEndTime;
-    private float unityStartTime;
-    private float unityEndTime;
+    private AudioSource trackToPlay; 
+    private AudioSource recordedTrack; //Voir Style 1 
+    private Tape recordedTape; 
     private float delay;
+    private bool isPlaying;
+
+    // VARIABLES POUR STYLE 1, c'est à dire avant l'invention des tapes.
+    private AudioSource audioSource;
+    private float sampleStartTime;
+    private float sampleEndTime; // For debug only
+    private float unityStartTime; 
+    private float unityEndTime;
+
+    
 
     public void OnRecordButtonPressed()
     {
-
         if(audioTrigger != null)
         {
             audioTrigger.OnRecordButtonPressed();
@@ -42,12 +48,12 @@ public class Recorder : MonoBehaviour
         Tape tape = new Tape();
         tape.audioSource = audioSource;
         tape.sampleStartTime = audioSource.time;
-        tape.unityStartTime = Time.time;
-        this.audioSource = audioSource;
-        audioToPlayer = this.audioSource.transform.position - gameObject.transform.position;
+        tape.unityStartTime = Time.time; // Le temps qu'il était dans Unity quand l'enregistrement de l'audioSource a commencé.
+        // this.audioSource = audioSource; // Utile pour Style 1
+        audioToPlayer = audioSource.transform.position - gameObject.transform.position;
         tape.distanceToPlayer = audioToPlayer;
         TrackList.tapes.Add(tape);
-        Debug.Log("piste enregistrée dans Tracklist sous l'index 0 : " + TrackList.tapes[0].audioSource.clip);
+        Debug.Log("piste enregistrée : " + tape.audioSource.clip);
     }
 
     public void StopRecording()
@@ -59,30 +65,54 @@ public class Recorder : MonoBehaviour
         // Debug.Log("EndTime of the sample : " + sampleEndTime);
 
         // STYLE 2
+        Debug.Log("Entered StopRecording()");
         if (TrackList.tapes.Count() != 0)
         {
-        TrackList.tapes.Last().unityEndTime = Time.time;
-        Debug.Log("piste enregistrée dans Tracklist sous l'index Last() : " + TrackList.tapes.Last().audioSource.clip);
+        TrackList.tapes.Last().unityEndTime = Time.time; // Le temps qu'il était dans Unity quand l'enregistrement de l'audioSource s'est terminé.
+        Debug.Log("clip enregistré dans Tracklist sous l'index Last() : " + TrackList.tapes.Last().audioSource.clip);
         }
     }
 
-    public void PlayRecord()
+    public void PlayRecord(int buttonIndex)
     {
-        if (audioSource != null && !isPlaying && recordedTrack == null)
-        {
-            // Debug.Log("Entered PlayRecord()");
-            recordedTrack = Instantiate(audioSource);
-            recordedTrack.time = sampleStartTime;
-            recordedTrack.transform.position = gameObject.transform.position + audioToPlayer;
+        // // STYLE 1
+        // if (audioSource != null && !isPlaying && recordedTrack == null)
+        // {
+        //     // Debug.Log("Entered PlayRecord()");
+        //     recordedTrack = Instantiate(audioSource);
+        //     recordedTrack.time = sampleStartTime;
+        //     recordedTrack.transform.position = gameObject.transform.position + audioToPlayer;
 
-            recordedTrack.Play();
+        //     recordedTrack.Play();
+        //     isPlaying = true;
+        //     StartCoroutine(EndOfSample());
+        //     // Debug.Log("entered PlayRecord()");
+        // }
+
+        // STYLE 2
+        if (TrackList.tapes != null && buttonIndex < TrackList.tapes.Count)
+        {
+        recordedTape = TrackList.tapes[buttonIndex];
+        Debug.Log("Le buttonIndex est : " + buttonIndex);
+        }
+
+        if (recordedTape.audioSource != null && !isPlaying && trackToPlay == null) // Conditions à revoir.
+        {
+
+            Debug.Log("Entered PlayRecord(), recordedTape.audioSource.clip = " + recordedTape.audioSource.clip);
+
+            // Après ça il reste du boulot pour tout "traduire" en tape (Parce que ci-dessous, c'est fait directement sur l'audioSource passée).
+            trackToPlay = Instantiate(recordedTape.audioSource);
+            trackToPlay.time = recordedTape.sampleStartTime;
+            trackToPlay.transform.position = gameObject.transform.position + recordedTape.distanceToPlayer;
+
+            trackToPlay.Play();
             isPlaying = true;
-            StartCoroutine(EndOfSample());
+            StartCoroutine(EndOfSample(recordedTape));
             // Debug.Log("entered PlayRecord()");
         }
 
-        // // ---La condition suivante devrait permettre au joueur d'arrêter de jouer l'audioClip s'il réappuie sur le bouton Play. Le problème, c'est que ça vient interférer avec la coroutine... Je n'ai pas encore trouvé comment résoudre ce souci, donc pour l'instant, le joueur est obligé d'écouter le clip qu'il a lancé jusqu'au bout---
-
+        // // CONDITION POUR ARRETER DE JOUER L'ENREGISTREMENT, pas encore au point. Il faudrait probablement utiliser StopCoroutine().
         // else if (audioSource != null && isPlaying && recordedTrack != null) 
         // {
         //     recordedTrack.Stop();
@@ -92,12 +122,13 @@ public class Recorder : MonoBehaviour
         // }
     }
 
-    private IEnumerator EndOfSample()
+    private IEnumerator EndOfSample(Tape currentTape)
     {
-        delay = unityEndTime - unityStartTime;
+        // STYLE 1
+        delay = currentTape.unityEndTime - currentTape.unityStartTime;
         yield return new WaitForSeconds(delay);
-        recordedTrack.Stop();
-        Destroy(recordedTrack);
+        trackToPlay.Stop();
+        Destroy(trackToPlay);
         isPlaying = false;
         delay = 0;
     }

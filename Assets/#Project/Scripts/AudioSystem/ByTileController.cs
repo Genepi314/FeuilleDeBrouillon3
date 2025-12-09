@@ -5,18 +5,22 @@ using UnityEngine.InputSystem;
 
 public class ByTileController : MonoBehaviour
 {
-
+    // Linked GameObjects:
     [SerializeField] private InputActionAsset actions;
-    // private AudioTrigger audioTrigger;
-    [SerializeField] private float timeToMove = 0.25f;
-
-    private Recorder recorder;
     private InputAction yAxis;
     private InputAction xAxis;   
+    private Recorder recorder;
+
+    // Variables for making the GRID-BASED movement:
+    [SerializeField] private float timeToMove = 0.25f;
     private bool isMoving = false;
     private Vector3 startPosition;
     private Vector3 targetPosition;
 
+    // TEST link UI:
+    [SerializeField] Comedon comedon;
+
+    // SCRIPT
     void Awake()
     {
         xAxis = actions.FindActionMap("Player").FindAction("MoveX");
@@ -30,7 +34,7 @@ public class ByTileController : MonoBehaviour
         actions.FindActionMap("Player").Enable();
         actions.FindActionMap("Player").FindAction("Interact").performed += OnInteract;        
         actions.FindActionMap("Player").FindAction("Record").performed += OnRecordButton;   
-        actions.FindActionMap("Player").FindAction("Play").performed += OnPlayButton;   
+        // actions.FindActionMap("Player").FindAction("Play").performed += OnPlayButton;   // Pour Recorder Style 1
     }
 
     void OnDisable()
@@ -38,7 +42,7 @@ public class ByTileController : MonoBehaviour
         actions.FindActionMap("Player").Disable();
         actions.FindActionMap("Player").FindAction("Interact").performed -= OnInteract;
         actions.FindActionMap("Player").FindAction("Record").performed -= OnRecordButton;        
-        actions.FindActionMap("Player").FindAction("Play").performed -= OnPlayButton;   
+        // actions.FindActionMap("Player").FindAction("Play").performed -= OnPlayButton;   // Pour Recorder Style 1
     }
 
     void Update()
@@ -86,7 +90,7 @@ public class ByTileController : MonoBehaviour
 
     private void OnInteract(InputAction.CallbackContext context)
     {
-        
+        comedon.OnMenuButtonPressed();
     }
 
     private void OnRecordButton(InputAction.CallbackContext context)
@@ -94,9 +98,10 @@ public class ByTileController : MonoBehaviour
         recorder.OnRecordButtonPressed();
     }
 
-    private void OnPlayButton(InputAction.CallbackContext context)
-    {
+    // // Pour RECORDER Style 1:
+    // private void OnPlayButton(InputAction.CallbackContext context)
+    // {
 
-        recorder.PlayRecord();
-    }
+    //     recorder.PlayRecord();
+    // }
 }
