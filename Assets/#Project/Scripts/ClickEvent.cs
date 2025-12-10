@@ -10,6 +10,6 @@ public class ClickEvent : MonoBehaviour
 
     public void ButtonClicked() 
     {
-        OnButtonClicked?.Invoke(Convert.ToInt32(label.text[label.text.Length - 1])); // On prend le dernier char du texte du bouton et on le convertit en int.
+        OnButtonClicked?.Invoke(int.Parse((label.text[label.text.Length - 1]).ToString())); // On prend le dernier char du texte du bouton et on le convertit en int.
     }
 }

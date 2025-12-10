@@ -13,6 +13,7 @@ public class Comedon : MonoBehaviour
     {
         gameObject.SetActive(true);
         trackButtonPrefab.GetComponentInChildren<TextMeshProUGUI>().text = "Track 01";
+
     }
 
     void OnEnable() // Pour l'instant CreateButton est dans OnEnable pour tester. Il faudra mettre cette fonction en lien avec le Recorder.

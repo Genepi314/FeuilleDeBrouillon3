@@ -18,7 +18,8 @@ public class ByTileController : MonoBehaviour
     private Vector3 targetPosition;
 
     // TEST link UI:
-    [SerializeField] Comedon comedon;
+    // [SerializeField] Comedon comedon;
+    [SerializeField] TrackMenu test;
 
     // SCRIPT
     void Awake()
@@ -90,7 +91,9 @@ public class ByTileController : MonoBehaviour
 
     private void OnInteract(InputAction.CallbackContext context)
     {
-        comedon.OnMenuButtonPressed();
+        // comedon.OnMenuButtonPressed();
+        test.OnMenuButtonPressed();
+
     }
 
     private void OnRecordButton(InputAction.CallbackContext context)
