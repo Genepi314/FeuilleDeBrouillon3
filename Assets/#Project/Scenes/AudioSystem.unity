@@ -560,6 +560,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   panel: {fileID: 544203163}
   buttonPrefab: {fileID: 488348486675537256, guid: eeeb4997cb23237499d2983151653e27, type: 3}
+  recorder: {fileID: 1124854680}
+  buttonOffset: -6
 --- !u!1 &516274446
 GameObject:
   m_ObjectHideFlags: 0
@@ -935,7 +937,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 254.6, y: 41.7}
+  m_AnchoredPosition: {x: 255, y: 40}
   m_SizeDelta: {x: 140, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &544203165

@@ -3,28 +3,46 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.UI;
-// using System.Numerics;
 
 public class TrackMenu : MonoBehaviour
 {
     [SerializeField] GameObject panel;
     [SerializeField] GameObject buttonPrefab;
+    [SerializeField] Recorder recorder;
+
+    [SerializeField] const float yPosOffset = -12f;
+    [SerializeField] float buttonOffset = -6;
+    private List<GameObject> buttonList = new List<GameObject>();
 
     public void OnMenuButtonPressed() // Appelé dans ByTileController sous la fonction OnInteract()
     {
-        gameObject.SetActive(true);
+        if (gameObject.activeSelf)
+        {
+            gameObject.SetActive(false);
+        }
+        else gameObject.SetActive(true);
     }
 
     void OnEnable()
     {
         createButtons();
+        // Adapt panel size to number of tracks to display
+        panel.GetComponent<RectTransform>().sizeDelta = new Vector2(140, TrackList.tapes.Count * Mathf.Abs(yPosOffset));
+    }
+
+    void OnDisable()
+    {
+        foreach(GameObject go in buttonList)
+        {
+            Destroy(go);
+        }
     }
 
     void createButtons()
     {
         int i = 0;
-        const float yPosOffset = -10f;
-        float offsetCounter = 10;
+        // const float yPosOffset = -10f;
+        float offsetCounter = buttonOffset;
 
         foreach (Tape tape in TrackList.tapes)
         {
@@ -45,6 +63,8 @@ public class TrackMenu : MonoBehaviour
             tempObj.GetComponent<RectTransform>().anchoredPosition = pos;
             tempButton.onClick.AddListener(() => clickAction(tempButton));
 
+            buttonList.Add(tempObj);
+
             offsetCounter += yPosOffset; //Increment Position
             i++;
         }
@@ -55,6 +75,12 @@ public class TrackMenu : MonoBehaviour
     {
         //Debug.Log("Clicked Button: " + buttonClicked.name);
         GameObject buttonObj = buttonClicked.gameObject;
+
         Debug.Log("Clicked Button: " + buttonObj.GetComponentInChildren<TextMeshProUGUI>().text);
+
+        string buttonText = buttonObj.GetComponentInChildren<TextMeshProUGUI>().text;
+        int buttonIndex = int.Parse(buttonText[buttonText.Length - 1].ToString());
+
+        recorder.PlayRecord(buttonIndex);
     }
 }
