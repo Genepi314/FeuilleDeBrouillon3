@@ -16,14 +16,16 @@ public class ByTileController : MonoBehaviour
     private bool isMoving = false;
     private Vector3 startPosition;
     private Vector3 targetPosition;
+    private Vector3 playerOffset;
 
     // TEST link UI:
     // [SerializeField] Comedon comedon;
-    [SerializeField] TrackMenu test;
+    [SerializeField] TrackMenu trackMenu;
 
     // SCRIPT
     void Awake()
     {
+        playerOffset = transform.position;
         xAxis = actions.FindActionMap("Player").FindAction("MoveX");
         yAxis = actions.FindActionMap("Player").FindAction("MoveY");
 
@@ -56,30 +58,35 @@ public class ByTileController : MonoBehaviour
 
     private IEnumerator Move()
     {
+
         isMoving = true;
         float elapsedTime = 0;
-        startPosition = transform.position;
 
-        if (xAxis.ReadValue<float>() > 0)
+        startPosition = transform.position;
+        Vector3 raycastStartPosition = new Vector3(startPosition.x + 0.5f, startPosition.y + 0.5f, 0); 
+
+        if (xAxis.ReadValue<float>() > 0 && Physics2D.Raycast(raycastStartPosition, Vector3.right, 1f).collider == null)
         {
-            targetPosition = startPosition + Vector3.right;
+            targetPosition = startPosition + Vector3.right;    
         }
-        else if (xAxis.ReadValue<float>() < 0)
+        else if (xAxis.ReadValue<float>() < 0 && Physics2D.Raycast(raycastStartPosition, Vector3.left, 1f).collider == null)
         {
             targetPosition = startPosition - Vector3.right;
         }
-        else if (yAxis.ReadValue<float>() > 0)
+        else if (yAxis.ReadValue<float>() > 0 && Physics2D.Raycast(raycastStartPosition, Vector3.up, 1f).collider == null)
         {
             targetPosition = startPosition + Vector3.up;
         }
-        else if (yAxis.ReadValue<float>() < 0)
+        else if (yAxis.ReadValue<float>() < 0 && Physics2D.Raycast(raycastStartPosition, Vector3.down, 1f).collider == null)
         {
             targetPosition = startPosition - Vector3.up;
         }
+        else targetPosition = startPosition;
+
 
         while(elapsedTime < timeToMove)
         {
-            transform.position = Vector3.Lerp(startPosition, targetPosition, (elapsedTime/timeToMove));
+            transform.position = Vector3.Lerp(startPosition, targetPosition, elapsedTime/timeToMove);
             elapsedTime += Time.deltaTime;
             yield return null;
         }
@@ -89,10 +96,12 @@ public class ByTileController : MonoBehaviour
         isMoving = false;
     }
 
+
+
     private void OnInteract(InputAction.CallbackContext context)
     {
         // comedon.OnMenuButtonPressed();
-        test.OnMenuButtonPressed();
+        trackMenu.OnMenuButtonPressed();
 
     }
 

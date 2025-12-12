@@ -1,0 +1,7800 @@
+fileFormatVersion: 2
+guid: 4eb0b233144db5048a45f8c8562e0a2a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1550663128156851749
+    second: All_DungeonTiles_0
+  - first:
+      213: -7342839185143372877
+    second: All_DungeonTiles_1
+  - first:
+      213: 502496790621261612
+    second: All_DungeonTiles_2
+  - first:
+      213: -3549718617414949488
+    second: All_DungeonTiles_3
+  - first:
+      213: -6843297243942244525
+    second: All_DungeonTiles_4
+  - first:
+      213: 7587467794322664623
+    second: All_DungeonTiles_5
+  - first:
+      213: -7637705042725218270
+    second: All_DungeonTiles_6
+  - first:
+      213: -4233350257804636115
+    second: All_DungeonTiles_7
+  - first:
+      213: 6542160194413186435
+    second: All_DungeonTiles_8
+  - first:
+      213: -6064412295149074907
+    second: All_DungeonTiles_9
+  - first:
+      213: -1720681662480535170
+    second: All_DungeonTiles_10
+  - first:
+      213: -4403344816092260518
+    second: All_DungeonTiles_11
+  - first:
+      213: -1706201038657910086
+    second: All_DungeonTiles_12
+  - first:
+      213: -5427060870951613161
+    second: All_DungeonTiles_13
+  - first:
+      213: 1358322886084059162
+    second: All_DungeonTiles_14
+  - first:
+      213: 5581430499273129281
+    second: All_DungeonTiles_15
+  - first:
+      213: -2871652268183786244
+    second: All_DungeonTiles_16
+  - first:
+      213: -2414246934450809784
+    second: All_DungeonTiles_17
+  - first:
+      213: 8726762645202111558
+    second: All_DungeonTiles_18
+  - first:
+      213: -2305477289906031344
+    second: All_DungeonTiles_19
+  - first:
+      213: -6181262474160193358
+    second: All_DungeonTiles_20
+  - first:
+      213: -1652583700453086813
+    second: All_DungeonTiles_21
+  - first:
+      213: -3527368697542080999
+    second: All_DungeonTiles_22
+  - first:
+      213: 681465068616639007
+    second: All_DungeonTiles_23
+  - first:
+      213: 622340813687281119
+    second: All_DungeonTiles_24
+  - first:
+      213: -3121148475509776775
+    second: All_DungeonTiles_25
+  - first:
+      213: 8644277610807058076
+    second: All_DungeonTiles_26
+  - first:
+      213: 7013342469358204963
+    second: All_DungeonTiles_27
+  - first:
+      213: 5317765543877652303
+    second: All_DungeonTiles_28
+  - first:
+      213: 8141930504625628345
+    second: All_DungeonTiles_29
+  - first:
+      213: 283944292888593728
+    second: All_DungeonTiles_30
+  - first:
+      213: -7837279347870325648
+    second: All_DungeonTiles_31
+  - first:
+      213: -8874501126059738147
+    second: All_DungeonTiles_32
+  - first:
+      213: 4519912364020226071
+    second: All_DungeonTiles_33
+  - first:
+      213: 3050970684964216052
+    second: All_DungeonTiles_34
+  - first:
+      213: -4922948614168855424
+    second: All_DungeonTiles_35
+  - first:
+      213: 9191826743943223493
+    second: All_DungeonTiles_36
+  - first:
+      213: 7702530053752637128
+    second: All_DungeonTiles_37
+  - first:
+      213: 3295340272038409044
+    second: All_DungeonTiles_38
+  - first:
+      213: 5814502012759537384
+    second: All_DungeonTiles_39
+  - first:
+      213: 6520203284309198965
+    second: All_DungeonTiles_40
+  - first:
+      213: -3523665432866805102
+    second: All_DungeonTiles_41
+  - first:
+      213: -2771823002651469089
+    second: All_DungeonTiles_42
+  - first:
+      213: -8839715471982655457
+    second: All_DungeonTiles_43
+  - first:
+      213: -5683503092470083622
+    second: All_DungeonTiles_44
+  - first:
+      213: -2473649508282247860
+    second: All_DungeonTiles_45
+  - first:
+      213: -6297602886685226147
+    second: All_DungeonTiles_46
+  - first:
+      213: 348979680489334550
+    second: All_DungeonTiles_47
+  - first:
+      213: -8724505288022597790
+    second: All_DungeonTiles_48
+  - first:
+      213: 3422121752571560196
+    second: All_DungeonTiles_49
+  - first:
+      213: 6986876144589623190
+    second: All_DungeonTiles_50
+  - first:
+      213: 3380554399066224338
+    second: All_DungeonTiles_51
+  - first:
+      213: 3087733400541149090
+    second: All_DungeonTiles_52
+  - first:
+      213: 5966680048256217309
+    second: All_DungeonTiles_53
+  - first:
+      213: 2419396085977310376
+    second: All_DungeonTiles_54
+  - first:
+      213: -3436545889895335666
+    second: All_DungeonTiles_55
+  - first:
+      213: -4189563028714213929
+    second: All_DungeonTiles_56
+  - first:
+      213: 7463387665826498359
+    second: All_DungeonTiles_57
+  - first:
+      213: -7585641454769072670
+    second: All_DungeonTiles_58
+  - first:
+      213: 8514588139953998759
+    second: All_DungeonTiles_59
+  - first:
+      213: -674119182573900481
+    second: All_DungeonTiles_60
+  - first:
+      213: -7411487959590151685
+    second: All_DungeonTiles_61
+  - first:
+      213: -1928999198883912920
+    second: All_DungeonTiles_62
+  - first:
+      213: 6495001478497884653
+    second: All_DungeonTiles_63
+  - first:
+      213: 5180564824167608186
+    second: All_DungeonTiles_64
+  - first:
+      213: -4489211295325434604
+    second: All_DungeonTiles_65
+  - first:
+      213: 4443536322843609984
+    second: All_DungeonTiles_66
+  - first:
+      213: 7877520585023526146
+    second: All_DungeonTiles_67
+  - first:
+      213: 1524527598668592160
+    second: All_DungeonTiles_68
+  - first:
+      213: -6060002887845665715
+    second: All_DungeonTiles_69
+  - first:
+      213: 2314358948718299082
+    second: All_DungeonTiles_70
+  - first:
+      213: 9208827371063069345
+    second: All_DungeonTiles_71
+  - first:
+      213: -1168376505761378483
+    second: All_DungeonTiles_72
+  - first:
+      213: 956430645863269132
+    second: All_DungeonTiles_73
+  - first:
+      213: -3571742682525352862
+    second: All_DungeonTiles_74
+  - first:
+      213: 6823848778660009228
+    second: All_DungeonTiles_75
+  - first:
+      213: -4049660612552849115
+    second: All_DungeonTiles_76
+  - first:
+      213: -2210191917175138044
+    second: All_DungeonTiles_77
+  - first:
+      213: -360789245356143724
+    second: All_DungeonTiles_78
+  - first:
+      213: 4655221674533817819
+    second: All_DungeonTiles_79
+  - first:
+      213: -267207113800794831
+    second: All_DungeonTiles_80
+  - first:
+      213: -7313180977339298562
+    second: All_DungeonTiles_81
+  - first:
+      213: 5935577265931904525
+    second: All_DungeonTiles_82
+  - first:
+      213: 7643735556820848437
+    second: All_DungeonTiles_83
+  - first:
+      213: -4161761227581315569
+    second: All_DungeonTiles_84
+  - first:
+      213: 5725069394337959484
+    second: All_DungeonTiles_85
+  - first:
+      213: -787240302982546419
+    second: All_DungeonTiles_86
+  - first:
+      213: 355724714465539245
+    second: All_DungeonTiles_87
+  - first:
+      213: -6990337320964126354
+    second: All_DungeonTiles_88
+  - first:
+      213: -2403218333798305403
+    second: All_DungeonTiles_89
+  - first:
+      213: 509658706343409191
+    second: All_DungeonTiles_90
+  - first:
+      213: -4731152033568943281
+    second: All_DungeonTiles_91
+  - first:
+      213: 2013849933170465952
+    second: All_DungeonTiles_92
+  - first:
+      213: 1378375678920754641
+    second: All_DungeonTiles_93
+  - first:
+      213: 3796821234876591846
+    second: All_DungeonTiles_94
+  - first:
+      213: 6962710614263286714
+    second: All_DungeonTiles_95
+  - first:
+      213: 6375800953325090807
+    second: All_DungeonTiles_96
+  - first:
+      213: 6809936516778689222
+    second: All_DungeonTiles_97
+  - first:
+      213: -5940773365437244128
+    second: All_DungeonTiles_98
+  - first:
+      213: 2319175569809022165
+    second: All_DungeonTiles_99
+  - first:
+      213: 1563098509803657974
+    second: All_DungeonTiles_100
+  - first:
+      213: 5281621220256628043
+    second: All_DungeonTiles_101
+  - first:
+      213: 3231592064159545630
+    second: All_DungeonTiles_102
+  - first:
+      213: 1435193150617862
+    second: All_DungeonTiles_103
+  - first:
+      213: 7743933923153954484
+    second: All_DungeonTiles_104
+  - first:
+      213: 5216227739423899069
+    second: All_DungeonTiles_105
+  - first:
+      213: 7140819454066503745
+    second: All_DungeonTiles_106
+  - first:
+      213: -5757603619876486070
+    second: All_DungeonTiles_107
+  - first:
+      213: -877853442493240010
+    second: All_DungeonTiles_108
+  - first:
+      213: 2826837460734191907
+    second: All_DungeonTiles_109
+  - first:
+      213: -5420611264308718539
+    second: All_DungeonTiles_110
+  - first:
+      213: -843926434623962842
+    second: All_DungeonTiles_111
+  - first:
+      213: -7975298365210710972
+    second: All_DungeonTiles_112
+  - first:
+      213: 3106705986956273670
+    second: All_DungeonTiles_113
+  - first:
+      213: -6293789730840650698
+    second: All_DungeonTiles_114
+  - first:
+      213: -1368617320848065864
+    second: All_DungeonTiles_115
+  - first:
+      213: 8247023552170345574
+    second: All_DungeonTiles_116
+  - first:
+      213: -3745177847806728986
+    second: All_DungeonTiles_117
+  - first:
+      213: 5251098168357390085
+    second: All_DungeonTiles_118
+  - first:
+      213: -1532589366788107701
+    second: All_DungeonTiles_119
+  - first:
+      213: 7534681011983477158
+    second: All_DungeonTiles_120
+  - first:
+      213: 5210444425838873025
+    second: All_DungeonTiles_121
+  - first:
+      213: -3457195400752925195
+    second: All_DungeonTiles_122
+  - first:
+      213: 7174261364993102862
+    second: All_DungeonTiles_123
+  - first:
+      213: -4691530103735915392
+    second: All_DungeonTiles_124
+  - first:
+      213: 8251280712834833704
+    second: All_DungeonTiles_125
+  - first:
+      213: -539429317132932525
+    second: All_DungeonTiles_126
+  - first:
+      213: -651273994545452274
+    second: All_DungeonTiles_127
+  - first:
+      213: -6032846423719335632
+    second: All_DungeonTiles_128
+  - first:
+      213: -3443085610658103288
+    second: All_DungeonTiles_129
+  - first:
+      213: 663266624810918269
+    second: All_DungeonTiles_130
+  - first:
+      213: 1927709833917495207
+    second: All_DungeonTiles_131
+  - first:
+      213: 979486823325382221
+    second: All_DungeonTiles_132
+  - first:
+      213: -8092012974879580895
+    second: All_DungeonTiles_133
+  - first:
+      213: -2139137406950291066
+    second: All_DungeonTiles_134
+  - first:
+      213: 4559700371304092927
+    second: All_DungeonTiles_135
+  - first:
+      213: 7983319891473528361
+    second: All_DungeonTiles_136
+  - first:
+      213: 6128984600141322666
+    second: All_DungeonTiles_137
+  - first:
+      213: 1924081416601558516
+    second: All_DungeonTiles_138
+  - first:
+      213: 6070713544645963711
+    second: All_DungeonTiles_139
+  - first:
+      213: 8829933954136684708
+    second: All_DungeonTiles_140
+  - first:
+      213: -3126998145623815242
+    second: All_DungeonTiles_141
+  - first:
+      213: 9110581024238629390
+    second: All_DungeonTiles_142
+  - first:
+      213: 8694999112744535574
+    second: All_DungeonTiles_143
+  - first:
+      213: 2582603334993960025
+    second: All_DungeonTiles_144
+  - first:
+      213: 5893098756519637417
+    second: All_DungeonTiles_145
+  - first:
+      213: -3127468438005637925
+    second: All_DungeonTiles_146
+  - first:
+      213: 5406702452600358184
+    second: All_DungeonTiles_147
+  - first:
+      213: -7068858602462176056
+    second: All_DungeonTiles_148
+  - first:
+      213: -5417938355909611512
+    second: All_DungeonTiles_149
+  - first:
+      213: 5751455263833467328
+    second: All_DungeonTiles_150
+  - first:
+      213: -7697356896262952753
+    second: All_DungeonTiles_151
+  - first:
+      213: -4399694943747967226
+    second: All_DungeonTiles_152
+  - first:
+      213: -8323890888273381605
+    second: All_DungeonTiles_153
+  - first:
+      213: 5449980049377185001
+    second: All_DungeonTiles_154
+  - first:
+      213: -5458621052184169380
+    second: All_DungeonTiles_155
+  - first:
+      213: 8615507743042763243
+    second: All_DungeonTiles_156
+  - first:
+      213: -83841076788896027
+    second: All_DungeonTiles_157
+  - first:
+      213: -2074315905737675889
+    second: All_DungeonTiles_158
+  - first:
+      213: 1610384570602426960
+    second: All_DungeonTiles_159
+  - first:
+      213: 4298462059704288976
+    second: All_DungeonTiles_160
+  - first:
+      213: 4601312713006314001
+    second: All_DungeonTiles_161
+  - first:
+      213: -1538448839898699469
+    second: All_DungeonTiles_162
+  - first:
+      213: 1485341116560562539
+    second: All_DungeonTiles_163
+  - first:
+      213: 2839626138956516247
+    second: All_DungeonTiles_164
+  - first:
+      213: 5479610615706029268
+    second: All_DungeonTiles_165
+  - first:
+      213: 5348333141742261362
+    second: All_DungeonTiles_166
+  - first:
+      213: -5834691113277097059
+    second: All_DungeonTiles_167
+  - first:
+      213: -2142023662945950215
+    second: All_DungeonTiles_168
+  - first:
+      213: -8098601677087362411
+    second: All_DungeonTiles_169
+  - first:
+      213: -885948501691615550
+    second: All_DungeonTiles_170
+  - first:
+      213: -2240004881174452735
+    second: All_DungeonTiles_171
+  - first:
+      213: -5559926573200732405
+    second: All_DungeonTiles_172
+  - first:
+      213: 7771923656219858921
+    second: All_DungeonTiles_173
+  - first:
+      213: -2984367076737549294
+    second: All_DungeonTiles_174
+  - first:
+      213: -5840092207316092408
+    second: All_DungeonTiles_175
+  - first:
+      213: -1597399739544644554
+    second: All_DungeonTiles_176
+  - first:
+      213: 6229451931096983841
+    second: All_DungeonTiles_177
+  - first:
+      213: -1842476377532571380
+    second: All_DungeonTiles_178
+  - first:
+      213: 9214876220528927858
+    second: All_DungeonTiles_179
+  - first:
+      213: -276334814928701035
+    second: All_DungeonTiles_180
+  - first:
+      213: -7267455488686402735
+    second: All_DungeonTiles_181
+  - first:
+      213: -1639222547433617104
+    second: All_DungeonTiles_182
+  - first:
+      213: 721566754975525034
+    second: All_DungeonTiles_183
+  - first:
+      213: 6131681071413037545
+    second: All_DungeonTiles_184
+  - first:
+      213: 3908783466321242470
+    second: All_DungeonTiles_185
+  - first:
+      213: -4235438883028736257
+    second: All_DungeonTiles_186
+  - first:
+      213: 4559062470836813832
+    second: All_DungeonTiles_187
+  - first:
+      213: -7030184137843259841
+    second: All_DungeonTiles_188
+  - first:
+      213: 4813956180756086238
+    second: All_DungeonTiles_189
+  - first:
+      213: -6043981641729216774
+    second: All_DungeonTiles_190
+  - first:
+      213: -1747811845893007837
+    second: All_DungeonTiles_191
+  - first:
+      213: 4248749678970837151
+    second: All_DungeonTiles_192
+  - first:
+      213: 3561155143039629079
+    second: All_DungeonTiles_193
+  - first:
+      213: -8496311422547306383
+    second: All_DungeonTiles_194
+  - first:
+      213: 7025646443476184887
+    second: All_DungeonTiles_195
+  - first:
+      213: -4722027827283679854
+    second: All_DungeonTiles_196
+  - first:
+      213: 8520054951300092816
+    second: All_DungeonTiles_197
+  - first:
+      213: 1319665803641840862
+    second: All_DungeonTiles_198
+  - first:
+      213: 8541767208346094094
+    second: All_DungeonTiles_199
+  - first:
+      213: -2117931807953958228
+    second: All_DungeonTiles_200
+  - first:
+      213: 8755850332050890095
+    second: All_DungeonTiles_201
+  - first:
+      213: 8620641879592004261
+    second: All_DungeonTiles_202
+  - first:
+      213: -5439137702348753143
+    second: All_DungeonTiles_203
+  - first:
+      213: -8728646882625370734
+    second: All_DungeonTiles_204
+  - first:
+      213: 9113122160497894155
+    second: All_DungeonTiles_205
+  - first:
+      213: -1475331135397909360
+    second: All_DungeonTiles_206
+  - first:
+      213: 935745783233580348
+    second: All_DungeonTiles_207
+  - first:
+      213: 8719021750551662469
+    second: All_DungeonTiles_208
+  - first:
+      213: -1151535929182778970
+    second: All_DungeonTiles_209
+  - first:
+      213: -3275699346058224629
+    second: All_DungeonTiles_210
+  - first:
+      213: -3096058808240578820
+    second: All_DungeonTiles_211
+  - first:
+      213: 8486064023217118817
+    second: All_DungeonTiles_212
+  - first:
+      213: 8437749626759486550
+    second: All_DungeonTiles_213
+  - first:
+      213: 3770204551840955062
+    second: All_DungeonTiles_214
+  - first:
+      213: 8647046155081599170
+    second: All_DungeonTiles_215
+  - first:
+      213: 6024067631585813322
+    second: All_DungeonTiles_216
+  - first:
+      213: -5532161687779250886
+    second: All_DungeonTiles_217
+  - first:
+      213: 4099844269419952616
+    second: All_DungeonTiles_218
+  - first:
+      213: -5025195538550666523
+    second: All_DungeonTiles_219
+  - first:
+      213: 3931614965096276338
+    second: All_DungeonTiles_220
+  - first:
+      213: -1879228450194983129
+    second: All_DungeonTiles_221
+  - first:
+      213: 8532806763116632870
+    second: All_DungeonTiles_222
+  - first:
+      213: 8882095927654035526
+    second: All_DungeonTiles_223
+  - first:
+      213: 146253392464632424
+    second: All_DungeonTiles_224
+  - first:
+      213: -2654462327021827356
+    second: All_DungeonTiles_225
+  - first:
+      213: -4061533018478119833
+    second: All_DungeonTiles_226
+  - first:
+      213: -2903200089887895787
+    second: All_DungeonTiles_227
+  - first:
+      213: -8787797536198969481
+    second: All_DungeonTiles_228
+  - first:
+      213: 1557925641147722057
+    second: All_DungeonTiles_229
+  - first:
+      213: 3787216789692665155
+    second: All_DungeonTiles_230
+  - first:
+      213: 8025250065786676087
+    second: All_DungeonTiles_231
+  - first:
+      213: -831745773961945735
+    second: All_DungeonTiles_232
+  - first:
+      213: 478380124480070771
+    second: All_DungeonTiles_233
+  - first:
+      213: -7010165805663308811
+    second: All_DungeonTiles_234
+  - first:
+      213: 4927755648271167861
+    second: All_DungeonTiles_235
+  - first:
+      213: 1468225093141182877
+    second: All_DungeonTiles_236
+  - first:
+      213: -911917126359676538
+    second: All_DungeonTiles_237
+  - first:
+      213: -8209287483532464731
+    second: All_DungeonTiles_238
+  - first:
+      213: 3083546851303233361
+    second: All_DungeonTiles_239
+  - first:
+      213: 3472732205837419697
+    second: All_DungeonTiles_240
+  - first:
+      213: 8369901443970189201
+    second: All_DungeonTiles_241
+  - first:
+      213: 460004322051625075
+    second: All_DungeonTiles_242
+  - first:
+      213: 4000491492351902211
+    second: All_DungeonTiles_243
+  - first:
+      213: -7082559028884403910
+    second: All_DungeonTiles_244
+  - first:
+      213: 1417586873392948973
+    second: All_DungeonTiles_245
+  - first:
+      213: -2767088329463589647
+    second: All_DungeonTiles_246
+  - first:
+      213: -3201425241756105192
+    second: All_DungeonTiles_247
+  - first:
+      213: 787073687216076039
+    second: All_DungeonTiles_248
+  - first:
+      213: -4561082106353191562
+    second: All_DungeonTiles_249
+  - first:
+      213: -3067163126446305284
+    second: All_DungeonTiles_250
+  - first:
+      213: -3487338541498297523
+    second: All_DungeonTiles_251
+  - first:
+      213: -7406250186192699024
+    second: All_DungeonTiles_252
+  - first:
+      213: -4774839667285593444
+    second: All_DungeonTiles_253
+  - first:
+      213: -7798809050221071367
+    second: All_DungeonTiles_254
+  - first:
+      213: -2385726166572259013
+    second: All_DungeonTiles_255
+  - first:
+      213: 8699212894903642205
+    second: All_DungeonTiles_256
+  - first:
+      213: 5158799936842424497
+    second: All_DungeonTiles_257
+  - first:
+      213: 3393150525869836441
+    second: All_DungeonTiles_258
+  - first:
+      213: 617297921430448742
+    second: All_DungeonTiles_259
+  - first:
+      213: -4097557703127172648
+    second: All_DungeonTiles_260
+  - first:
+      213: 5882333049063743002
+    second: All_DungeonTiles_261
+  - first:
+      213: 5584754357285898867
+    second: All_DungeonTiles_262
+  - first:
+      213: -197065706862404384
+    second: All_DungeonTiles_263
+  - first:
+      213: 7169092127004761710
+    second: All_DungeonTiles_264
+  - first:
+      213: 7923828623605316564
+    second: All_DungeonTiles_265
+  - first:
+      213: 1337373603024599785
+    second: All_DungeonTiles_266
+  - first:
+      213: 6974378474424740675
+    second: All_DungeonTiles_267
+  - first:
+      213: 5927658995906905296
+    second: All_DungeonTiles_268
+  - first:
+      213: 6552803477199363685
+    second: All_DungeonTiles_269
+  - first:
+      213: 695628234324994394
+    second: All_DungeonTiles_270
+  - first:
+      213: 424239813697372151
+    second: All_DungeonTiles_271
+  - first:
+      213: 2937935377008758212
+    second: All_DungeonTiles_272
+  - first:
+      213: -7433224729445221534
+    second: All_DungeonTiles_273
+  - first:
+      213: 1878124380038935062
+    second: All_DungeonTiles_274
+  - first:
+      213: -6448371466626481139
+    second: All_DungeonTiles_275
+  - first:
+      213: -160404483169439113
+    second: All_DungeonTiles_276
+  - first:
+      213: 548658957778413199
+    second: All_DungeonTiles_277
+  - first:
+      213: 3513146583055719412
+    second: All_DungeonTiles_278
+  - first:
+      213: 8013721527882445044
+    second: All_DungeonTiles_279
+  - first:
+      213: -186642670529060926
+    second: All_DungeonTiles_280
+  - first:
+      213: -9096371132778863264
+    second: All_DungeonTiles_281
+  - first:
+      213: -1939969733244439455
+    second: All_DungeonTiles_282
+  - first:
+      213: -3815508625681733430
+    second: All_DungeonTiles_283
+  - first:
+      213: 4181079481516506867
+    second: All_DungeonTiles_284
+  - first:
+      213: -2837605478902667593
+    second: All_DungeonTiles_285
+  - first:
+      213: 1276074009444487732
+    second: All_DungeonTiles_286
+  - first:
+      213: 55532331538309036
+    second: All_DungeonTiles_287
+  - first:
+      213: -5518040816190470592
+    second: All_DungeonTiles_288
+  - first:
+      213: -6894201042460829348
+    second: All_DungeonTiles_289
+  - first:
+      213: -1813093406877825084
+    second: All_DungeonTiles_290
+  - first:
+      213: -1079348479573641414
+    second: All_DungeonTiles_291
+  - first:
+      213: 6282604015100562699
+    second: All_DungeonTiles_292
+  - first:
+      213: -8330917598613232717
+    second: All_DungeonTiles_293
+  - first:
+      213: -3348718816283747709
+    second: All_DungeonTiles_294
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: All_DungeonTiles_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 377
+        width: 98
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ec51836ef058510800000000000000
+      internalID: 1550663128156851749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 479
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b3e5b64aaef81a90800000000000000
+      internalID: -7342839185143372877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 479
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f01c13b2a39f600800000000000000
+      internalID: 502496790621261612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 479
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095246489bddcbec0800000000000000
+      internalID: -3549718617414949488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_4
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 479
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35fa96af969b701a0800000000000000
+      internalID: -6843297243942244525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_5
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 479
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faca15142c91c4960800000000000000
+      internalID: 7587467794322664623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_6
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 479
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228572ddabb610690800000000000000
+      internalID: -7637705042725218270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_7
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 479
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d201fb9ae5e1045c0800000000000000
+      internalID: -4233350257804636115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_8
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 482
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38dc2b3f80c6aca50800000000000000
+      internalID: 6542160194413186435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_9
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 488
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526c020f521e6dba0800000000000000
+      internalID: -6064412295149074907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_10
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 480
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71b1500529ee18e0800000000000000
+      internalID: -1720681662480535170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_11
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 480
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a57534d383d24e2c0800000000000000
+      internalID: -4403344816092260518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_12
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 480
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba8467f13b5258e0800000000000000
+      internalID: -1706201038657910086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_13
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 479
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71dc18444e43fa4b0800000000000000
+      internalID: -5427060870951613161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_14
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 479
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a10e25bd77bb9d210800000000000000
+      internalID: 1358322886084059162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_15
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 479
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14db4b7a779357d40800000000000000
+      internalID: 5581430499273129281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_16
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 479
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfce57c0a77d528d0800000000000000
+      internalID: -2871652268183786244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_17
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 480
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844dbff443fde7ed0800000000000000
+      internalID: -2414246934450809784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_18
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 481
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c8b62b360bb1970800000000000000
+      internalID: 8726762645202111558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_19
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 479
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 015bb69ae9c4100e0800000000000000
+      internalID: -2305477289906031344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_20
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 479
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0ca3c878eb73aa0800000000000000
+      internalID: -6181262474160193358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 447
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9a4e451e7d019e0800000000000000
+      internalID: -1652583700453086813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_22
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 447
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9160c2fbbd44c0fc0800000000000000
+      internalID: -3527368697542080999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_23
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 447
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f126bbd8edc057900800000000000000
+      internalID: 681465068616639007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_24
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 447
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5de093caff2a800800000000000000
+      internalID: 622340813687281119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_25
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 447
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97edcf18ff37fa4d0800000000000000
+      internalID: -3121148475509776775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_26
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 449
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e540c00b4a6f770800000000000000
+      internalID: 8644277610807058076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_27
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 448
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 328b14e41d5645160800000000000000
+      internalID: 7013342469358204963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_28
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 447
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4fa3a1669f7cc940800000000000000
+      internalID: 5317765543877652303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_29
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 451
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4a02af7a2fdf070800000000000000
+      internalID: 8141930504625628345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_30
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 448
+        width: 12
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 045cf9974d5c0f300800000000000000
+      internalID: 283944292888593728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_31
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 448
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0742fa0f4f36c3390800000000000000
+      internalID: -7837279347870325648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_32
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 448
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddbb766be3077d480800000000000000
+      internalID: -8874501126059738147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_33
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 448
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7185259f854f9be30800000000000000
+      internalID: 4519912364020226071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_34
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 455
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc1c695ca9375a20800000000000000
+      internalID: 3050970684964216052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_35
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 455
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08cb6fc715c2eabb0800000000000000
+      internalID: -4922948614168855424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_36
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 455
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8dba529bdef8f70800000000000000
+      internalID: 9191826743943223493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_37
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 455
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c642bd2642e4ea60800000000000000
+      internalID: 7702530053752637128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_38
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 456
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45373e894866bbd20800000000000000
+      internalID: 3295340272038409044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_39
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 457
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e6735826c241b050800000000000000
+      internalID: 5814502012759537384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_40
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 455
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 578c590775a6c7a50800000000000000
+      internalID: 6520203284309198965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_41
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 455
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29aa6ae35fc691fc0800000000000000
+      internalID: -3523665432866805102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_42
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 415
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdad3b23aa18889d0800000000000000
+      internalID: -2771823002651469089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_43
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 415
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1803f0fc95035580800000000000000
+      internalID: -8839715471982655457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_44
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 415
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf8c75cc042021b0800000000000000
+      internalID: -5683503092470083622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_45
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 415
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c455400d0e4dbadd0800000000000000
+      internalID: -2473649508282247860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_46
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 416
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b07aa6a8b6a98a0800000000000000
+      internalID: -6297602886685226147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_47
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 417
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6176561ab23d7d400800000000000000
+      internalID: 348979680489334550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_48
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 416
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f556a3aa45ce680800000000000000
+      internalID: -8724505288022597790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_49
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 415
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4014a205a91dd7f20800000000000000
+      internalID: 3422121752571560196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_50
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 419
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f4aefd5de56f060800000000000000
+      internalID: 6986876144589623190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_51
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 416
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d6f934a0542aee20800000000000000
+      internalID: 3380554399066224338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_52
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 416
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a73d541b25d9da20800000000000000
+      internalID: 3087733400541149090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_53
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 416
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0f8bc14e7edc250800000000000000
+      internalID: 5966680048256217309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_54
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 416
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a4e5a3fbeb639120800000000000000
+      internalID: 2419396085977310376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_55
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 432
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09b57288bfee40d0800000000000000
+      internalID: -3436545889895335666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_56
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 431
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd21656f9eabd5c0800000000000000
+      internalID: -4189563028714213929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_57
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 431
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737ce921a87439760800000000000000
+      internalID: 7463387665826498359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_58
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 431
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e5130f89436ab690800000000000000
+      internalID: -7585641454769072670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_59
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 432
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab46b21dc4e92670800000000000000
+      internalID: 8514588139953998759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_60
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 433
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3de762dc2c05a6f0800000000000000
+      internalID: -674119182573900481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_61
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 431
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf95b8fe7fa152990800000000000000
+      internalID: -7411487959590151685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_62
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 431
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823e28ae271da35e0800000000000000
+      internalID: -1928999198883912920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_63
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 387
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9d085ce61e22a50800000000000000
+      internalID: 6495001478497884653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_64
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 384
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7fe460824015e740800000000000000
+      internalID: 5180564824167608186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_65
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 384
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41dc47c9c1e13b1c0800000000000000
+      internalID: -4489211295325434604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_66
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 407
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b83a52ebc9aad30800000000000000
+      internalID: 4443536322843609984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_67
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 407
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20597253c33925d60800000000000000
+      internalID: 7877520585023526146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_68
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 407
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024bbe016c5382510800000000000000
+      internalID: 1524527598668592160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_69
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 407
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d442e141b7b86eba0800000000000000
+      internalID: -6060002887845665715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_70
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 408
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7c91da3314e1020800000000000000
+      internalID: 2314358948718299082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_71
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 410
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aacb1a14b35ccf70800000000000000
+      internalID: 9208827371063069345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_72
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 408
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f4e2222c719cfe0800000000000000
+      internalID: -1168376505761378483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_73
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 407
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c034af2ea9ce54d00800000000000000
+      internalID: 956430645863269132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_74
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 383
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26cb9f244fe9e6ec0800000000000000
+      internalID: -3571742682525352862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_75
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 383
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0553055f4e23be50800000000000000
+      internalID: 6823848778660009228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_76
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 383
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52985eff027bcc7c0800000000000000
+      internalID: -4049660612552849115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_77
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 383
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40916535922d351e0800000000000000
+      internalID: -2210191917175138044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_78
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 384
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b04c7c7183efaf0800000000000000
+      internalID: -360789245356143724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_79
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 385
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd8945d27baa9040800000000000000
+      internalID: 4655221674533817819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_80
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 384
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d3274bb80ba4cf0800000000000000
+      internalID: -267207113800794831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_81
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 383
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc0c83e5ac528a90800000000000000
+      internalID: -7313180977339298562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_82
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 384
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0661c843186f5250800000000000000
+      internalID: 5935577265931904525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_83
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 384
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f445d9df0041a60800000000000000
+      internalID: 7643735556820848437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_84
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 383
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06a506a6347e36c0800000000000000
+      internalID: -4161761227581315569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_85
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 383
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e89fb0848837f40800000000000000
+      internalID: 5725069394337959484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_86
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 383
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0cbadb8d192315f0800000000000000
+      internalID: -787240302982546419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_87
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 383
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da4bb8b3eb9cfe400800000000000000
+      internalID: 355724714465539245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_88
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 383
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6907c33e355dfe90800000000000000
+      internalID: -6990337320964126354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_89
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 383
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581fe3088ad06aed0800000000000000
+      internalID: -2403218333798305403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_90
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 327
+        width: 12
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726b844a4eba21700800000000000000
+      internalID: 509658706343409191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_91
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 327
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4391ccca42975eb0800000000000000
+      internalID: -4731152033568943281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_92
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 351
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0acd19928d1a2fb10800000000000000
+      internalID: 2013849933170465952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_93
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 351
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d50c158069f02310800000000000000
+      internalID: 1378375678920754641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_94
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 351
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eeaa74fbc401b430800000000000000
+      internalID: 3796821234876591846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_95
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 351
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb4105e96480a060800000000000000
+      internalID: 6962710614263286714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_96
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 351
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f7f985cf256b7850800000000000000
+      internalID: 6375800953325090807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_97
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 351
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c20e817e21c18e50800000000000000
+      internalID: 6809936516778689222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_98
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 351
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02dd20689122e8da0800000000000000
+      internalID: -5940773365437244128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_99
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 351
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc1b3aa4ed5f2020800000000000000
+      internalID: 2319175569809022165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_100
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 353
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fa1ac120dd31b510800000000000000
+      internalID: 1563098509803657974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_101
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 352
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4dbf8f34861c4940800000000000000
+      internalID: 5281621220256628043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_102
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 352
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1973335cdbe8dc20800000000000000
+      internalID: 3231592064159545630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_103
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 352
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6093de1fc49150000800000000000000
+      internalID: 1435193150617862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_104
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 352
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b640bdbfdaf77b60800000000000000
+      internalID: 7743933923153954484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_105
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 359
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd76e30e73c36840800000000000000
+      internalID: 5216227739423899069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_106
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 359
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14035d4b579491360800000000000000
+      internalID: 7140819454066503745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_107
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 359
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4442c74302e810b0800000000000000
+      internalID: -5757603619876486070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_108
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 359
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63d2653f1fc31d3f0800000000000000
+      internalID: -877853442493240010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_109
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 359
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32924dc71b1fa3720800000000000000
+      internalID: 2826837460734191907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_110
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 359
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 534d56556ce16c4b0800000000000000
+      internalID: -5420611264308718539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_111
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 359
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6214da70165c944f0800000000000000
+      internalID: -843926434623962842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_112
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 359
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44cacdb446c025190800000000000000
+      internalID: -7975298365210710972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_113
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 319
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608ab1692ac3d1b20800000000000000
+      internalID: 3106705986956273670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_114
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 319
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63cdd32f597f7a8a0800000000000000
+      internalID: -6293789730840650698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_115
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 319
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba77654cc1b10de0800000000000000
+      internalID: -1368617320848065864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_116
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 319
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 664c461e930537270800000000000000
+      internalID: 8247023552170345574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_117
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 319
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e461d81794760cc0800000000000000
+      internalID: -3745177847806728986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_118
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 319
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50785ad66f5afd840800000000000000
+      internalID: 5251098168357390085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_119
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 319
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42dd0647162bbae0800000000000000
+      internalID: -1532589366788107701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_120
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 319
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a9e72fb570909860800000000000000
+      internalID: 7534681011983477158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_121
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 322
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c94a0469973f4840800000000000000
+      internalID: 5210444425838873025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_122
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 320
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f5f10b99139500d0800000000000000
+      internalID: -3457195400752925195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_123
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 320
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04193a53b8109360800000000000000
+      internalID: 7174261364993102862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_124
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 320
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ce4c93a3654eeb0800000000000000
+      internalID: -4691530103735915392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_125
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 336
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d5d865710728270800000000000000
+      internalID: 8251280712834833704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_126
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 335
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a2cd2e4ef8388f0800000000000000
+      internalID: -539429317132932525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_127
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 335
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b2ba7a0c536f6f0800000000000000
+      internalID: -651273994545452274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_128
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 335
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03929b91426074ca0800000000000000
+      internalID: -6032846423719335632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_129
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 335
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800077d11e3b730d0800000000000000
+      internalID: -3443085610658103288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_130
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 336
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d712a3b2b75643900800000000000000
+      internalID: 663266624810918269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_131
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 337
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7fda861e990ca10800000000000000
+      internalID: 1927709833917495207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_132
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 335
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d463c768316d79d00800000000000000
+      internalID: 979486823325382221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_133
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 335
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d537a921563bf80800000000000000
+      internalID: -8092012974879580895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_134
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 303
+        width: 82
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6894afcacd14052e0800000000000000
+      internalID: -2139137406950291066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_135
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 290
+        width: 9
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff41cc1545f474f30800000000000000
+      internalID: 4559700371304092927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_136
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 290
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926f693d4237ace60800000000000000
+      internalID: 7983319891473528361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_137
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 311
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9534565078e0550800000000000000
+      internalID: 6128984600141322666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_138
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 311
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd577baad5b3ba10800000000000000
+      internalID: 1924081416601558516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_139
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 311
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf66c90ec18f3450800000000000000
+      internalID: 6070713544645963711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_140
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 311
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a83a76f52a3a8a70800000000000000
+      internalID: 8829933954136684708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_141
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 312
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb89cc01cbaa94d0800000000000000
+      internalID: -3126998145623815242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_142
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 313
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02782feb294f6e70800000000000000
+      internalID: 9110581024238629390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_143
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 311
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616897dff97daa870800000000000000
+      internalID: 8694999112744535574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_144
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 311
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95cdd0acc0047d320800000000000000
+      internalID: 2582603334993960025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_145
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 289
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a136a8981e78c150800000000000000
+      internalID: 5893098756519637417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_146
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 289
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc9d6296000994d0800000000000000
+      internalID: -3127468438005637925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_147
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 289
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8254a751c37780b40800000000000000
+      internalID: 5406702452600358184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_148
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 289
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc17c0bd8e56ed90800000000000000
+      internalID: -7068858602462176056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_149
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 288
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8003b0155cd9fc4b0800000000000000
+      internalID: -5417938355909611512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_150
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 288
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c92856071641df40800000000000000
+      internalID: 5751455263833467328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_151
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 287
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc8e7d86fae7d2590800000000000000
+      internalID: -7697356896262952753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_152
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 287
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607f1dd52c421f2c0800000000000000
+      internalID: -4399694943747967226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_153
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17ba57c6599b7c80800000000000000
+      internalID: -8323890888273381605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_154
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 287
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ecc71ccaf732ab40800000000000000
+      internalID: 5449980049377185001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_155
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 287
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54f715f2151f34b0800000000000000
+      internalID: -5458621052184169380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_156
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 289
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9f0b735ae609770800000000000000
+      internalID: 8615507743042763243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_157
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee59602cf226def0800000000000000
+      internalID: -83841076788896027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_158
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 287
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b20968cac8633e0800000000000000
+      internalID: -2074315905737675889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_159
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 290
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052178a1c3c395610800000000000000
+      internalID: 1610384570602426960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_160
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 288
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d60b25187437ab30800000000000000
+      internalID: 4298462059704288976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_161
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 287
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 112fa3f98852bdf30800000000000000
+      internalID: 4601312713006314001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_162
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 287
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339e9b06ee456aae0800000000000000
+      internalID: -1538448839898699469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_163
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 287
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b69dfd630edfc9410800000000000000
+      internalID: 1485341116560562539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_164
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 287
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79bca6bade0686720800000000000000
+      internalID: 2839626138956516247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_165
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 288
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc0e90a2dc7b0c40800000000000000
+      internalID: 5479610615706029268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_166
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 289
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2741ffdd7a8193a40800000000000000
+      internalID: 5348333141742261362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_167
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 287
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b7df29853070fa0800000000000000
+      internalID: -5834691113277097059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_168
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 287
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f520a5d3d00642e0800000000000000
+      internalID: -2142023662945950215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_169
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 239
+        width: 98
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59233d3deacfb9f80800000000000000
+      internalID: -8098601677087362411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_170
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 255
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c6b16b188a74b3f0800000000000000
+      internalID: -885948501691615550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_171
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 255
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 106a47abd67e9e0e0800000000000000
+      internalID: -2240004881174452735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_172
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 255
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f8d1b4d3c27d2b0800000000000000
+      internalID: -5559926573200732405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_173
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 255
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e7907e436b6bdb60800000000000000
+      internalID: 7771923656219858921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_174
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 255
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21cffaf94f56596d0800000000000000
+      internalID: -2984367076737549294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_175
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 257
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ab56f5413d3fea0800000000000000
+      internalID: -5840092207316092408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_176
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 634d3287665e4d9e0800000000000000
+      internalID: -1597399739544644554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_177
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 255
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129286ab685737650800000000000000
+      internalID: 6229451931096983841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_178
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 258
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c016f1a1f753e66e0800000000000000
+      internalID: -1842476377532571380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_179
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 263
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27422dd9911d1ef70800000000000000
+      internalID: 9214876220528927858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_180
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 263
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599f91d23f24a2cf0800000000000000
+      internalID: -276334814928701035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_181
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 263
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15352e7dcbfc42b90800000000000000
+      internalID: -7267455488686402735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_182
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039886037cf4049e0800000000000000
+      internalID: -1639222547433617104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_183
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 223
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa82c000425830a00800000000000000
+      internalID: 721566754975525034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_184
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 223
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e98f89827b181550800000000000000
+      internalID: 6131681071413037545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_185
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 223
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6696ffd5ad9ce3630800000000000000
+      internalID: 3908783466321242470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_186
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 223
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6e135b6c2b835c0800000000000000
+      internalID: -4235438883028736257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_187
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 223
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8000b0b892b054f30800000000000000
+      internalID: 4559062470836813832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_188
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 225
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36444e26c4cf6e90800000000000000
+      internalID: -7030184137843259841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_189
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edd334614ab9ec240800000000000000
+      internalID: 4813956180756086238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_190
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 223
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe6fbf18b67f1ca0800000000000000
+      internalID: -6043981641729216774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_191
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 228
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 326d35fe2668eb7e0800000000000000
+      internalID: -1747811845893007837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_192
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 239
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f989c9a725796fa30800000000000000
+      internalID: 4248749678970837151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_193
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 239
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717beea1cb3cb6130800000000000000
+      internalID: 3561155143039629079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_194
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 239
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17859fdc6c9071a80800000000000000
+      internalID: -8496311422547306383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_195
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 239
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f62e4873c108160800000000000000
+      internalID: 7025646443476184887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_196
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 240
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2952f3f95bcf77eb0800000000000000
+      internalID: -4722027827283679854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_197
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 241
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093dc0746d05d3670800000000000000
+      internalID: 8520054951300092816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_198
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 239
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed46d487e05605210800000000000000
+      internalID: 1319665803641840862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_199
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 239
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a8c8f05047a8670800000000000000
+      internalID: 8541767208346094094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_200
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 193
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa4760fd389b92e0800000000000000
+      internalID: -2117931807953958228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_201
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 196
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d116c8c77038970800000000000000
+      internalID: 8755850332050890095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_202
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 215
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aaefe88d1ca2a770800000000000000
+      internalID: 8620641879592004261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_203
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 215
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9077117d31d4484b0800000000000000
+      internalID: -5439137702348753143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_204
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 215
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2954b4718ed9dd680800000000000000
+      internalID: -8728646882625370734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_205
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 215
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03a7335250587e70800000000000000
+      internalID: 9113122160497894155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_206
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 216
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09ca8842622968be0800000000000000
+      internalID: -1475331135397909360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_207
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 217
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d05b105df6cfc00800000000000000
+      internalID: 935745783233580348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_208
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 215
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f49863610300970800000000000000
+      internalID: 8719021750551662469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_209
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 215
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a906fa6c2ce400f0800000000000000
+      internalID: -1151535929182778970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_210
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 191
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c5837dcc06a82d0800000000000000
+      internalID: -3275699346058224629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_211
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 191
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfed913eae69805d0800000000000000
+      internalID: -3096058808240578820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_212
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 191
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e141d944e84c570800000000000000
+      internalID: 8486064023217118817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_213
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 191
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c1fa69498e81570800000000000000
+      internalID: 8437749626759486550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_214
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 191
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba7a038015725430800000000000000
+      internalID: 3770204551840955062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_215
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c8cb0ef9aa700870800000000000000
+      internalID: 8647046155081599170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_216
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 191
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43e9931899c99350800000000000000
+      internalID: 6024067631585813322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_217
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 191
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d64ef6140d933b0800000000000000
+      internalID: -5532161687779250886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_218
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 191
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9723124a295e830800000000000000
+      internalID: 4099844269419952616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_219
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 191
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea4fc5484be24ab0800000000000000
+      internalID: -5025195538550666523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_220
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 191
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2716c2ceaf6ef8630800000000000000
+      internalID: 3931614965096276338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_221
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 192
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727f15e5ea3abe5e0800000000000000
+      internalID: -1879228450194983129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_222
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 193
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b1e94da8e9a6670800000000000000
+      internalID: 8532806763116632870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_223
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 191
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64033c4df2b834b70800000000000000
+      internalID: 8882095927654035526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_224
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 191
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86adc018fa8970200800000000000000
+      internalID: 146253392464632424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_225
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 147
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ea0538d394792bd0800000000000000
+      internalID: -2654462327021827356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_226
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 169
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76477161d3982a7c0800000000000000
+      internalID: -4061533018478119833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_227
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 176
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f895a66e2c5b7d0800000000000000
+      internalID: -2903200089887895787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_228
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 176
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 777bec853b87b0680800000000000000
+      internalID: -8787797536198969481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_229
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 176
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 949251bcd1dde9510800000000000000
+      internalID: 1557925641147722057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_230
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 167
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34dc60dca95ee8430800000000000000
+      internalID: 3787216789692665155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_231
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 167
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77325ec4a6a6f5f60800000000000000
+      internalID: 8025250065786676087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_232
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 167
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97dd09710ab0574f0800000000000000
+      internalID: -831745773961945735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_233
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 167
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374ed3b403c83a600800000000000000
+      internalID: 478380124480070771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_234
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 168
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f339d85753e6be90800000000000000
+      internalID: -7010165805663308811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_235
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 169
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571b02b57a7e26440800000000000000
+      internalID: 4927755648271167861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_236
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 167
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d99bef671fe206410800000000000000
+      internalID: 1468225093141182877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_237
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 167
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6898cb284383853f0800000000000000
+      internalID: -911917126359676538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_238
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 143
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5adacf44780c21e80800000000000000
+      internalID: -8209287483532464731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_239
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 143
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15714302685faca20800000000000000
+      internalID: 3083546851303233361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_240
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 164
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b48ff8ba8f913030800000000000000
+      internalID: 3472732205837419697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_241
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 143
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1974fd4840dd72470800000000000000
+      internalID: 8369901443970189201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_242
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 143
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37018036e73426600800000000000000
+      internalID: 460004322051625075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_243
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 143
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3028b9811d9948730800000000000000
+      internalID: 4000491492351902211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_244
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 143
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a390c969612b5bd90800000000000000
+      internalID: -7082559028884403910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_245
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 143
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de6e7da20c74ca310800000000000000
+      internalID: 1417586873392948973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_246
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 161
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f4913433d35999d0800000000000000
+      internalID: -2767088329463589647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_247
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 161
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 816882a54b04293d0800000000000000
+      internalID: -3201425241756105192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_248
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 161
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7053292395f3cea00800000000000000
+      internalID: 787073687216076039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_249
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 161
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6757d6b6df7c3b0c0800000000000000
+      internalID: -4561082106353191562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_250
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 146
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cffcdf3136f3f65d0800000000000000
+      internalID: -3067163126446305284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_251
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 145
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d43177eb21c7a9fc0800000000000000
+      internalID: -3487338541498297523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_252
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 145
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071405612b6b73990800000000000000
+      internalID: -7406250186192699024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_253
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 145
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c927ffbee9c5cbdb0800000000000000
+      internalID: -4774839667285593444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_254
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 145
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f3b87a1d7015c390800000000000000
+      internalID: -7798809050221071367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_255
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 143
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b392b1e01b234eed0800000000000000
+      internalID: -2385726166572259013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_256
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 143
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d58aa3a9900d9b870800000000000000
+      internalID: 8699212894903642205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_257
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 143
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b0ecc6c53db79740800000000000000
+      internalID: 5158799936842424497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_258
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 143
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 998c6e3fc64e61f20800000000000000
+      internalID: 3393150525869836441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_259
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 144
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ae27f5035119800800000000000000
+      internalID: 617297921430448742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_260
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 143
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d970729afc8227c0800000000000000
+      internalID: -4097557703127172648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_261
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 143
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e1cfffdbe32a150800000000000000
+      internalID: 5882333049063743002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_262
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 129
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a47d7af78018d40800000000000000
+      internalID: 5584754357285898867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_263
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 119
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec1e01a8c1e34df0800000000000000
+      internalID: -197065706862404384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_264
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 129
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e1b285e4bbd7360800000000000000
+      internalID: 7169092127004761710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_265
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 119
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db3113a62817fd60800000000000000
+      internalID: 7923828623605316564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_266
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 119
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eaf34cc43e4f8210800000000000000
+      internalID: 1337373603024599785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_267
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 119
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ba7394548f9c060800000000000000
+      internalID: 6974378474424740675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_268
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 119
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d40ea06376434250800000000000000
+      internalID: 5927658995906905296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_269
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 119
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e99655b0c30fa50800000000000000
+      internalID: 6552803477199363685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_270
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 119
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a596caa813e57a900800000000000000
+      internalID: 695628234324994394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_271
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 119
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff7203ecd333e500800000000000000
+      internalID: 424239813697372151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_272
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 119
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd09a7d8a4a5c820800000000000000
+      internalID: 2937935377008758212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_273
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 95
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26bb4c1dd71e7d890800000000000000
+      internalID: -7433224729445221534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_274
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 95
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 612b8344c20701a10800000000000000
+      internalID: 1878124380038935062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_275
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 95
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04c6f7e058c286a0800000000000000
+      internalID: -6448371466626481139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_276
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 95
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7723e40f8f026cdf0800000000000000
+      internalID: -160404483169439113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_277
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 95
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86e7394a6a3d9700800000000000000
+      internalID: 548658957778413199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_278
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 95
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fbd9ee243431c030800000000000000
+      internalID: 3513146583055719412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_279
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 95
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f075566545763f60800000000000000
+      internalID: 8013721527882445044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_280
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 95
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf5f23ea79e86df0800000000000000
+      internalID: -186642670529060926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_281
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 119
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 065299d36a233c180800000000000000
+      internalID: -9096371132778863264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_282
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 119
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 164b4f65ec7d315e0800000000000000
+      internalID: -1939969733244439455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_283
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 119
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac82dc0de179c0bc0800000000000000
+      internalID: -3815508625681733430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_284
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 47
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe3779d2ad260a30800000000000000
+      internalID: 4181079481516506867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_285
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 47
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b6ed49e9dcce98d0800000000000000
+      internalID: -2837605478902667593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_286
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 51
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4321c08fc8685b110800000000000000
+      internalID: 1276074009444487732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_287
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 47
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cafd3ee7c5a45c000800000000000000
+      internalID: 55532331538309036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_288
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 80
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0464cde0d1bfb63b0800000000000000
+      internalID: -5518040816190470592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_289
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 63
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c599efdcda0e250a0800000000000000
+      internalID: -6894201042460829348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_290
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 47
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c7c172172996d6e0800000000000000
+      internalID: -1813093406877825084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_291
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 47
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a37b726c6426501f0800000000000000
+      internalID: -1079348479573641414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_292
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 49
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d0388a01b403750800000000000000
+      internalID: 6282604015100562699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_293
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 47
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b3ab994592a26c80800000000000000
+      internalID: -8330917598613232717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_DungeonTiles_294
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 66
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38a9db69af5f681d0800000000000000
+      internalID: -3348718816283747709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a6d8d77c88b842d4d85acb9e24da1887
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      All_DungeonTiles_0: 1550663128156851749
+      All_DungeonTiles_1: -7342839185143372877
+      All_DungeonTiles_10: -1720681662480535170
+      All_DungeonTiles_100: 1563098509803657974
+      All_DungeonTiles_101: 5281621220256628043
+      All_DungeonTiles_102: 3231592064159545630
+      All_DungeonTiles_103: 1435193150617862
+      All_DungeonTiles_104: 7743933923153954484
+      All_DungeonTiles_105: 5216227739423899069
+      All_DungeonTiles_106: 7140819454066503745
+      All_DungeonTiles_107: -5757603619876486070
+      All_DungeonTiles_108: -877853442493240010
+      All_DungeonTiles_109: 2826837460734191907
+      All_DungeonTiles_11: -4403344816092260518
+      All_DungeonTiles_110: -5420611264308718539
+      All_DungeonTiles_111: -843926434623962842
+      All_DungeonTiles_112: -7975298365210710972
+      All_DungeonTiles_113: 3106705986956273670
+      All_DungeonTiles_114: -6293789730840650698
+      All_DungeonTiles_115: -1368617320848065864
+      All_DungeonTiles_116: 8247023552170345574
+      All_DungeonTiles_117: -3745177847806728986
+      All_DungeonTiles_118: 5251098168357390085
+      All_DungeonTiles_119: -1532589366788107701
+      All_DungeonTiles_12: -1706201038657910086
+      All_DungeonTiles_120: 7534681011983477158
+      All_DungeonTiles_121: 5210444425838873025
+      All_DungeonTiles_122: -3457195400752925195
+      All_DungeonTiles_123: 7174261364993102862
+      All_DungeonTiles_124: -4691530103735915392
+      All_DungeonTiles_125: 8251280712834833704
+      All_DungeonTiles_126: -539429317132932525
+      All_DungeonTiles_127: -651273994545452274
+      All_DungeonTiles_128: -6032846423719335632
+      All_DungeonTiles_129: -3443085610658103288
+      All_DungeonTiles_13: -5427060870951613161
+      All_DungeonTiles_130: 663266624810918269
+      All_DungeonTiles_131: 1927709833917495207
+      All_DungeonTiles_132: 979486823325382221
+      All_DungeonTiles_133: -8092012974879580895
+      All_DungeonTiles_134: -2139137406950291066
+      All_DungeonTiles_135: 4559700371304092927
+      All_DungeonTiles_136: 7983319891473528361
+      All_DungeonTiles_137: 6128984600141322666
+      All_DungeonTiles_138: 1924081416601558516
+      All_DungeonTiles_139: 6070713544645963711
+      All_DungeonTiles_14: 1358322886084059162
+      All_DungeonTiles_140: 8829933954136684708
+      All_DungeonTiles_141: -3126998145623815242
+      All_DungeonTiles_142: 9110581024238629390
+      All_DungeonTiles_143: 8694999112744535574
+      All_DungeonTiles_144: 2582603334993960025
+      All_DungeonTiles_145: 5893098756519637417
+      All_DungeonTiles_146: -3127468438005637925
+      All_DungeonTiles_147: 5406702452600358184
+      All_DungeonTiles_148: -7068858602462176056
+      All_DungeonTiles_149: -5417938355909611512
+      All_DungeonTiles_15: 5581430499273129281
+      All_DungeonTiles_150: 5751455263833467328
+      All_DungeonTiles_151: -7697356896262952753
+      All_DungeonTiles_152: -4399694943747967226
+      All_DungeonTiles_153: -8323890888273381605
+      All_DungeonTiles_154: 5449980049377185001
+      All_DungeonTiles_155: -5458621052184169380
+      All_DungeonTiles_156: 8615507743042763243
+      All_DungeonTiles_157: -83841076788896027
+      All_DungeonTiles_158: -2074315905737675889
+      All_DungeonTiles_159: 1610384570602426960
+      All_DungeonTiles_16: -2871652268183786244
+      All_DungeonTiles_160: 4298462059704288976
+      All_DungeonTiles_161: 4601312713006314001
+      All_DungeonTiles_162: -1538448839898699469
+      All_DungeonTiles_163: 1485341116560562539
+      All_DungeonTiles_164: 2839626138956516247
+      All_DungeonTiles_165: 5479610615706029268
+      All_DungeonTiles_166: 5348333141742261362
+      All_DungeonTiles_167: -5834691113277097059
+      All_DungeonTiles_168: -2142023662945950215
+      All_DungeonTiles_169: -8098601677087362411
+      All_DungeonTiles_17: -2414246934450809784
+      All_DungeonTiles_170: -885948501691615550
+      All_DungeonTiles_171: -2240004881174452735
+      All_DungeonTiles_172: -5559926573200732405
+      All_DungeonTiles_173: 7771923656219858921
+      All_DungeonTiles_174: -2984367076737549294
+      All_DungeonTiles_175: -5840092207316092408
+      All_DungeonTiles_176: -1597399739544644554
+      All_DungeonTiles_177: 6229451931096983841
+      All_DungeonTiles_178: -1842476377532571380
+      All_DungeonTiles_179: 9214876220528927858
+      All_DungeonTiles_18: 8726762645202111558
+      All_DungeonTiles_180: -276334814928701035
+      All_DungeonTiles_181: -7267455488686402735
+      All_DungeonTiles_182: -1639222547433617104
+      All_DungeonTiles_183: 721566754975525034
+      All_DungeonTiles_184: 6131681071413037545
+      All_DungeonTiles_185: 3908783466321242470
+      All_DungeonTiles_186: -4235438883028736257
+      All_DungeonTiles_187: 4559062470836813832
+      All_DungeonTiles_188: -7030184137843259841
+      All_DungeonTiles_189: 4813956180756086238
+      All_DungeonTiles_19: -2305477289906031344
+      All_DungeonTiles_190: -6043981641729216774
+      All_DungeonTiles_191: -1747811845893007837
+      All_DungeonTiles_192: 4248749678970837151
+      All_DungeonTiles_193: 3561155143039629079
+      All_DungeonTiles_194: -8496311422547306383
+      All_DungeonTiles_195: 7025646443476184887
+      All_DungeonTiles_196: -4722027827283679854
+      All_DungeonTiles_197: 8520054951300092816
+      All_DungeonTiles_198: 1319665803641840862
+      All_DungeonTiles_199: 8541767208346094094
+      All_DungeonTiles_2: 502496790621261612
+      All_DungeonTiles_20: -6181262474160193358
+      All_DungeonTiles_200: -2117931807953958228
+      All_DungeonTiles_201: 8755850332050890095
+      All_DungeonTiles_202: 8620641879592004261
+      All_DungeonTiles_203: -5439137702348753143
+      All_DungeonTiles_204: -8728646882625370734
+      All_DungeonTiles_205: 9113122160497894155
+      All_DungeonTiles_206: -1475331135397909360
+      All_DungeonTiles_207: 935745783233580348
+      All_DungeonTiles_208: 8719021750551662469
+      All_DungeonTiles_209: -1151535929182778970
+      All_DungeonTiles_21: -1652583700453086813
+      All_DungeonTiles_210: -3275699346058224629
+      All_DungeonTiles_211: -3096058808240578820
+      All_DungeonTiles_212: 8486064023217118817
+      All_DungeonTiles_213: 8437749626759486550
+      All_DungeonTiles_214: 3770204551840955062
+      All_DungeonTiles_215: 8647046155081599170
+      All_DungeonTiles_216: 6024067631585813322
+      All_DungeonTiles_217: -5532161687779250886
+      All_DungeonTiles_218: 4099844269419952616
+      All_DungeonTiles_219: -5025195538550666523
+      All_DungeonTiles_22: -3527368697542080999
+      All_DungeonTiles_220: 3931614965096276338
+      All_DungeonTiles_221: -1879228450194983129
+      All_DungeonTiles_222: 8532806763116632870
+      All_DungeonTiles_223: 8882095927654035526
+      All_DungeonTiles_224: 146253392464632424
+      All_DungeonTiles_225: -2654462327021827356
+      All_DungeonTiles_226: -4061533018478119833
+      All_DungeonTiles_227: -2903200089887895787
+      All_DungeonTiles_228: -8787797536198969481
+      All_DungeonTiles_229: 1557925641147722057
+      All_DungeonTiles_23: 681465068616639007
+      All_DungeonTiles_230: 3787216789692665155
+      All_DungeonTiles_231: 8025250065786676087
+      All_DungeonTiles_232: -831745773961945735
+      All_DungeonTiles_233: 478380124480070771
+      All_DungeonTiles_234: -7010165805663308811
+      All_DungeonTiles_235: 4927755648271167861
+      All_DungeonTiles_236: 1468225093141182877
+      All_DungeonTiles_237: -911917126359676538
+      All_DungeonTiles_238: -8209287483532464731
+      All_DungeonTiles_239: 3083546851303233361
+      All_DungeonTiles_24: 622340813687281119
+      All_DungeonTiles_240: 3472732205837419697
+      All_DungeonTiles_241: 8369901443970189201
+      All_DungeonTiles_242: 460004322051625075
+      All_DungeonTiles_243: 4000491492351902211
+      All_DungeonTiles_244: -7082559028884403910
+      All_DungeonTiles_245: 1417586873392948973
+      All_DungeonTiles_246: -2767088329463589647
+      All_DungeonTiles_247: -3201425241756105192
+      All_DungeonTiles_248: 787073687216076039
+      All_DungeonTiles_249: -4561082106353191562
+      All_DungeonTiles_25: -3121148475509776775
+      All_DungeonTiles_250: -3067163126446305284
+      All_DungeonTiles_251: -3487338541498297523
+      All_DungeonTiles_252: -7406250186192699024
+      All_DungeonTiles_253: -4774839667285593444
+      All_DungeonTiles_254: -7798809050221071367
+      All_DungeonTiles_255: -2385726166572259013
+      All_DungeonTiles_256: 8699212894903642205
+      All_DungeonTiles_257: 5158799936842424497
+      All_DungeonTiles_258: 3393150525869836441
+      All_DungeonTiles_259: 617297921430448742
+      All_DungeonTiles_26: 8644277610807058076
+      All_DungeonTiles_260: -4097557703127172648
+      All_DungeonTiles_261: 5882333049063743002
+      All_DungeonTiles_262: 5584754357285898867
+      All_DungeonTiles_263: -197065706862404384
+      All_DungeonTiles_264: 7169092127004761710
+      All_DungeonTiles_265: 7923828623605316564
+      All_DungeonTiles_266: 1337373603024599785
+      All_DungeonTiles_267: 6974378474424740675
+      All_DungeonTiles_268: 5927658995906905296
+      All_DungeonTiles_269: 6552803477199363685
+      All_DungeonTiles_27: 7013342469358204963
+      All_DungeonTiles_270: 695628234324994394
+      All_DungeonTiles_271: 424239813697372151
+      All_DungeonTiles_272: 2937935377008758212
+      All_DungeonTiles_273: -7433224729445221534
+      All_DungeonTiles_274: 1878124380038935062
+      All_DungeonTiles_275: -6448371466626481139
+      All_DungeonTiles_276: -160404483169439113
+      All_DungeonTiles_277: 548658957778413199
+      All_DungeonTiles_278: 3513146583055719412
+      All_DungeonTiles_279: 8013721527882445044
+      All_DungeonTiles_28: 5317765543877652303
+      All_DungeonTiles_280: -186642670529060926
+      All_DungeonTiles_281: -9096371132778863264
+      All_DungeonTiles_282: -1939969733244439455
+      All_DungeonTiles_283: -3815508625681733430
+      All_DungeonTiles_284: 4181079481516506867
+      All_DungeonTiles_285: -2837605478902667593
+      All_DungeonTiles_286: 1276074009444487732
+      All_DungeonTiles_287: 55532331538309036
+      All_DungeonTiles_288: -5518040816190470592
+      All_DungeonTiles_289: -6894201042460829348
+      All_DungeonTiles_29: 8141930504625628345
+      All_DungeonTiles_290: -1813093406877825084
+      All_DungeonTiles_291: -1079348479573641414
+      All_DungeonTiles_292: 6282604015100562699
+      All_DungeonTiles_293: -8330917598613232717
+      All_DungeonTiles_294: -3348718816283747709
+      All_DungeonTiles_3: -3549718617414949488
+      All_DungeonTiles_30: 283944292888593728
+      All_DungeonTiles_31: -7837279347870325648
+      All_DungeonTiles_32: -8874501126059738147
+      All_DungeonTiles_33: 4519912364020226071
+      All_DungeonTiles_34: 3050970684964216052
+      All_DungeonTiles_35: -4922948614168855424
+      All_DungeonTiles_36: 9191826743943223493
+      All_DungeonTiles_37: 7702530053752637128
+      All_DungeonTiles_38: 3295340272038409044
+      All_DungeonTiles_39: 5814502012759537384
+      All_DungeonTiles_4: -6843297243942244525
+      All_DungeonTiles_40: 6520203284309198965
+      All_DungeonTiles_41: -3523665432866805102
+      All_DungeonTiles_42: -2771823002651469089
+      All_DungeonTiles_43: -8839715471982655457
+      All_DungeonTiles_44: -5683503092470083622
+      All_DungeonTiles_45: -2473649508282247860
+      All_DungeonTiles_46: -6297602886685226147
+      All_DungeonTiles_47: 348979680489334550
+      All_DungeonTiles_48: -8724505288022597790
+      All_DungeonTiles_49: 3422121752571560196
+      All_DungeonTiles_5: 7587467794322664623
+      All_DungeonTiles_50: 6986876144589623190
+      All_DungeonTiles_51: 3380554399066224338
+      All_DungeonTiles_52: 3087733400541149090
+      All_DungeonTiles_53: 5966680048256217309
+      All_DungeonTiles_54: 2419396085977310376
+      All_DungeonTiles_55: -3436545889895335666
+      All_DungeonTiles_56: -4189563028714213929
+      All_DungeonTiles_57: 7463387665826498359
+      All_DungeonTiles_58: -7585641454769072670
+      All_DungeonTiles_59: 8514588139953998759
+      All_DungeonTiles_6: -7637705042725218270
+      All_DungeonTiles_60: -674119182573900481
+      All_DungeonTiles_61: -7411487959590151685
+      All_DungeonTiles_62: -1928999198883912920
+      All_DungeonTiles_63: 6495001478497884653
+      All_DungeonTiles_64: 5180564824167608186
+      All_DungeonTiles_65: -4489211295325434604
+      All_DungeonTiles_66: 4443536322843609984
+      All_DungeonTiles_67: 7877520585023526146
+      All_DungeonTiles_68: 1524527598668592160
+      All_DungeonTiles_69: -6060002887845665715
+      All_DungeonTiles_7: -4233350257804636115
+      All_DungeonTiles_70: 2314358948718299082
+      All_DungeonTiles_71: 9208827371063069345
+      All_DungeonTiles_72: -1168376505761378483
+      All_DungeonTiles_73: 956430645863269132
+      All_DungeonTiles_74: -3571742682525352862
+      All_DungeonTiles_75: 6823848778660009228
+      All_DungeonTiles_76: -4049660612552849115
+      All_DungeonTiles_77: -2210191917175138044
+      All_DungeonTiles_78: -360789245356143724
+      All_DungeonTiles_79: 4655221674533817819
+      All_DungeonTiles_8: 6542160194413186435
+      All_DungeonTiles_80: -267207113800794831
+      All_DungeonTiles_81: -7313180977339298562
+      All_DungeonTiles_82: 5935577265931904525
+      All_DungeonTiles_83: 7643735556820848437
+      All_DungeonTiles_84: -4161761227581315569
+      All_DungeonTiles_85: 5725069394337959484
+      All_DungeonTiles_86: -787240302982546419
+      All_DungeonTiles_87: 355724714465539245
+      All_DungeonTiles_88: -6990337320964126354
+      All_DungeonTiles_89: -2403218333798305403
+      All_DungeonTiles_9: -6064412295149074907
+      All_DungeonTiles_90: 509658706343409191
+      All_DungeonTiles_91: -4731152033568943281
+      All_DungeonTiles_92: 2013849933170465952
+      All_DungeonTiles_93: 1378375678920754641
+      All_DungeonTiles_94: 3796821234876591846
+      All_DungeonTiles_95: 6962710614263286714
+      All_DungeonTiles_96: 6375800953325090807
+      All_DungeonTiles_97: 6809936516778689222
+      All_DungeonTiles_98: -5940773365437244128
+      All_DungeonTiles_99: 2319175569809022165
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
