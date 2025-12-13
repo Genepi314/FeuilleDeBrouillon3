@@ -6,7 +6,13 @@ using UnityEngine.InputSystem;
 public class ByTileController : MonoBehaviour
 {
     // Linked GameObjects:
+    [SerializeField] TrackMenu trackMenu;
     [SerializeField] private InputActionAsset actions;
+
+    // Variable récupérée via la fonction GetDialogueTrigger() plus bas:
+    DialogueTrigger dialogueTrigger;
+
+    // Variables for InputActionSystem
     private InputAction yAxis;
     private InputAction xAxis;   
     private Recorder recorder;
@@ -18,9 +24,6 @@ public class ByTileController : MonoBehaviour
     private Vector3 targetPosition;
     private Vector3 playerOffset;
 
-    // TEST link UI:
-    // [SerializeField] Comedon comedon;
-    [SerializeField] TrackMenu trackMenu;
 
     // SCRIPT
     void Awake()
@@ -100,20 +103,28 @@ public class ByTileController : MonoBehaviour
 
     private void OnInteract(InputAction.CallbackContext context)
     {
-        // comedon.OnMenuButtonPressed();
+        if (dialogueTrigger is not null)
+            {
+                dialogueTrigger.ButtonInteractPressed();
+            }
+        else
         trackMenu.OnMenuButtonPressed();
-
     }
 
     private void OnRecordButton(InputAction.CallbackContext context)
     {
         recorder.OnRecordButtonPressed();
     }
+    
+    public void GetDialogueTrigger(DialogueTrigger collidedObject)
+    {
+        Debug.Log("Entered GetDialogueTrigger");
+        dialogueTrigger = collidedObject;
+    }
 
-    // // Pour RECORDER Style 1:
-    // private void OnPlayButton(InputAction.CallbackContext context)
-    // {
-
-    //     recorder.PlayRecord();
-    // }
+    public void RemoveDialogueTrigger()
+    {
+        // Debug.Log("Entered RemoveDialogueTrigger()");
+        dialogueTrigger = null;
+    }
 }

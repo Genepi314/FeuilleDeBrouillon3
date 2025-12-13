@@ -800,10 +800,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueLayout
       objectReference: {fileID: 0}
-    - target: {fileID: 1968482072522778854, guid: b61724668694fa641b8ea68c8acab716, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3889957651951658953, guid: b61724668694fa641b8ea68c8acab716, type: 3}
       propertyPath: m_Pivot.x
       value: 0

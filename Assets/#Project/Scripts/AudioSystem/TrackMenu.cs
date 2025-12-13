@@ -6,13 +6,23 @@ using UnityEngine.UI;
 
 public class TrackMenu : MonoBehaviour
 {
+    [Header("Attached GameObjects")] 
     [SerializeField] GameObject panel;
     [SerializeField] GameObject buttonPrefab;
     [SerializeField] Recorder recorder;
 
-    [SerializeField] const float yPosOffset = -12f;
-    [SerializeField] float buttonOffset = -6;
-    private List<GameObject> buttonList = new List<GameObject>();
+
+    [Header("panel and button adjustment settings")] 
+    [SerializeField] float buttonOffset = -10f; // Space between buttons
+    [SerializeField] float panelXOffset = 10;
+
+    // For math
+    private float panelYOffset;
+    private float panelXSize;
+    private float panelYSize;
+    private float buttonXSize;
+    private float buttonYSize;
+    private List<GameObject> buttonList = new List<GameObject>(); // To clean the menu when closing it.
 
     public void OnMenuButtonPressed() // Appelé dans ByTileController sous la fonction OnInteract()
     {
@@ -25,9 +35,17 @@ public class TrackMenu : MonoBehaviour
 
     void OnEnable()
     {
+        
+        // Calcul for size of the panel
+        buttonXSize = buttonPrefab.GetComponent<RectTransform>().sizeDelta.x;
+        buttonYSize = buttonPrefab.GetComponent<RectTransform>().sizeDelta.y;
+        panelYOffset = buttonOffset * -1; // because need to convert from neg to pos value for sizing
+        panelXSize = buttonXSize + panelXOffset * 2;
+        panelYSize = (buttonYSize + panelYOffset) * TrackList.tapes.Count + panelYOffset;
+
         createButtons();
         // Adapt panel size to number of tracks to display
-        panel.GetComponent<RectTransform>().sizeDelta = new Vector2(140, TrackList.tapes.Count * Mathf.Abs(yPosOffset));
+        panel.GetComponent<RectTransform>().sizeDelta = new Vector2(panelXSize, panelYSize);
     }
 
     void OnDisable()
@@ -41,7 +59,7 @@ public class TrackMenu : MonoBehaviour
     void createButtons()
     {
         int i = 0;
-        // const float yPosOffset = -10f;
+
         float offsetCounter = buttonOffset;
 
         foreach (Tape tape in TrackList.tapes)
@@ -58,14 +76,14 @@ public class TrackMenu : MonoBehaviour
             Debug.Log("texte du bouton No. " + i + " : " + tempObj.GetComponentInChildren<TextMeshProUGUI>().text);
             //Set Button Position
             Vector2 pos = Vector2.zero;
-            pos.y = offsetCounter;
+            pos.y = offsetCounter - buttonYSize/2; // "-" because we're placing the buttons from up to bottom
             Debug.Log(pos.y);
             tempObj.GetComponent<RectTransform>().anchoredPosition = pos;
             tempButton.onClick.AddListener(() => clickAction(tempButton));
 
             buttonList.Add(tempObj);
 
-            offsetCounter += yPosOffset; //Increment Position
+            offsetCounter += buttonOffset - buttonYSize; //Increment Position
             i++;
         }
     }
