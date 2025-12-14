@@ -73,11 +73,9 @@ public class TrackMenu : MonoBehaviour
             UnityEngine.UI.Button tempButton = tempObj.GetComponent<UnityEngine.UI.Button>();
             //Set Button Text
             tempObj.GetComponentInChildren<TextMeshProUGUI>().text = "Track " + i; 
-            Debug.Log("texte du bouton No. " + i + " : " + tempObj.GetComponentInChildren<TextMeshProUGUI>().text);
             //Set Button Position
             Vector2 pos = Vector2.zero;
             pos.y = offsetCounter - buttonYSize/2; // "-" because we're placing the buttons from up to bottom
-            Debug.Log(pos.y);
             tempObj.GetComponent<RectTransform>().anchoredPosition = pos;
             tempButton.onClick.AddListener(() => clickAction(tempButton));
 
@@ -91,11 +89,10 @@ public class TrackMenu : MonoBehaviour
     //This function will be called when a Button is clicked
     public void clickAction(UnityEngine.UI.Button buttonClicked)
     {
-        //Debug.Log("Clicked Button: " + buttonClicked.name);
+        // Debug.Log("Clicked Button: " + buttonClicked.name);
+        // Debug.Log("Clicked Button: " + buttonObj.GetComponentInChildren<TextMeshProUGUI>().text);
+
         GameObject buttonObj = buttonClicked.gameObject;
-
-        Debug.Log("Clicked Button: " + buttonObj.GetComponentInChildren<TextMeshProUGUI>().text);
-
         string buttonText = buttonObj.GetComponentInChildren<TextMeshProUGUI>().text;
         int buttonIndex = int.Parse(buttonText[buttonText.Length - 1].ToString());
 

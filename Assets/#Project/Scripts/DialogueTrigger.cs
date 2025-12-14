@@ -11,8 +11,9 @@ public class DialogueTrigger : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            // Debug.Log("Entered dialogueTrigger's OnTriggerEnter2D");
+
             playerController.GetDialogueTrigger(this);
-            Debug.Log("Entered dialogueTrigger's OnTriggerEnter2D");
             dialoguePossible = true;
         }
     }
@@ -21,7 +22,8 @@ public class DialogueTrigger : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Debug.Log("Entered dialogueTrigger's OnTriggerEXIT2D");
+            // Debug.Log("Entered dialogueTrigger's OnTriggerEXIT2D");
+
             playerController.RemoveDialogueTrigger();
             dialoguePossible = false;
         }
@@ -33,7 +35,6 @@ public class DialogueTrigger : MonoBehaviour
             // Debug.Log("From dialogueTrigger, ButtonInteractPressed, DialoguePossible");
             // Debug.Log("Here's the dialogueDisplayer : " + dialogueDisplayer.name);
 
-            // ogrestop.OgreStopSinging();
             dialogueDisplayer.SetDialogue(npcStory);
             dialogueDisplayer.DisplayDialogue();
         }

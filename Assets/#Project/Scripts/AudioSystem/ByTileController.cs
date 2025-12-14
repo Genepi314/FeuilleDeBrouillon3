@@ -115,7 +115,7 @@ public class ByTileController : MonoBehaviour
     
     public void GetDialogueTrigger(DialogueTrigger collidedObject)
     {
-        Debug.Log("Entered GetDialogueTrigger");
+        // Debug.Log("Entered GetDialogueTrigger");
         dialogueTrigger = collidedObject;
     }
 

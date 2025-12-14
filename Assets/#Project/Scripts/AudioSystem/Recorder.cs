@@ -11,20 +11,19 @@ public class Recorder : MonoBehaviour
     // Moyen le plus simple de faire passer un audioTrigger au Recorder. Mais est-ce que c'est un problème ? Sachant que par la suite la classe sera probablement statique, je dirais que ça passe :
     [HideInInspector] public AudioTrigger audioTrigger;
 
-
     private Vector3 audioToPlayer;
     private AudioSource trackToPlay; 
-    private AudioSource recordedTrack; //Voir Style 1 
     private Tape recordedTape; 
     private float delay;
     private bool isPlaying;
 
-    // VARIABLES POUR STYLE 1, c'est à dire avant l'invention des tapes.
-    private AudioSource audioSource;
-    private float sampleStartTime;
-    private float sampleEndTime; // For debug only
-    private float unityStartTime; 
-    private float unityEndTime;
+    // // VARIABLES POUR STYLE 1, c'est à dire avant l'invention des tapes.
+    // private AudioSource recordedTrack; 
+    // private AudioSource audioSource;
+    // private float sampleStartTime;
+    // private float sampleEndTime; // For debug only
+    // private float unityStartTime; 
+    // private float unityEndTime;
 
     
 
@@ -53,7 +52,7 @@ public class Recorder : MonoBehaviour
         audioToPlayer = audioSource.transform.position - gameObject.transform.position;
         tape.distanceToPlayer = audioToPlayer;
         TrackList.tapes.Add(tape);
-        Debug.Log("piste enregistrée : " + tape.audioSource.clip);
+        // Debug.Log("piste enregistrée : " + tape.audioSource.clip);
     }
 
     public void StopRecording()
@@ -65,11 +64,11 @@ public class Recorder : MonoBehaviour
         // Debug.Log("EndTime of the sample : " + sampleEndTime);
 
         // STYLE 2
-        Debug.Log("Entered StopRecording()");
+        // Debug.Log("Entered StopRecording()");
         if (TrackList.tapes.Count() != 0)
         {
         TrackList.tapes.Last().unityEndTime = Time.time; // Le temps qu'il était dans Unity quand l'enregistrement de l'audioSource s'est terminé.
-        Debug.Log("clip enregistré dans Tracklist sous l'index Last() : " + TrackList.tapes.Last().audioSource.clip);
+        // Debug.Log("clip enregistré dans Tracklist sous l'index Last() : " + TrackList.tapes.Last().audioSource.clip);
         }
     }
 
@@ -92,14 +91,14 @@ public class Recorder : MonoBehaviour
         // STYLE 2
         if (TrackList.tapes != null && buttonIndex < TrackList.tapes.Count)
         {
+        // Debug.Log("Le buttonIndex est : " + buttonIndex);
         recordedTape = TrackList.tapes[buttonIndex];
-        Debug.Log("Le buttonIndex est : " + buttonIndex);
         }
 
         if (recordedTape.audioSource != null && !isPlaying && trackToPlay == null) // Conditions à revoir.
         {
 
-            Debug.Log("Entered PlayRecord(), recordedTape.audioSource.clip = " + recordedTape.audioSource.clip);
+            // Debug.Log("Entered PlayRecord(), recordedTape.audioSource.clip = " + recordedTape.audioSource.clip);
 
             // Après ça il reste du boulot pour tout "traduire" en tape (Parce que ci-dessous, c'est fait directement sur l'audioSource passée).
             trackToPlay = Instantiate(recordedTape.audioSource);

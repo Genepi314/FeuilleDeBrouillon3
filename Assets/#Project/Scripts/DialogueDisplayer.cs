@@ -50,10 +50,11 @@ public class DialogueDisplayer : MonoBehaviour
 
     private void StartDialogue()
     {
+        // Debug.Log("Entered StartDialogue()");
+        
         if (currentNpcStory.name == "OgreDials") OnOgreStopSinging.Invoke();
 
         dialogueDisplay.SetActive(true);
-        Debug.Log("Entered StartDialogue()");
         characterNameArea.text = currentDialogue.dialogue[0].characterName;
         dialogueLineArea.text = currentDialogue.dialogue[0].sentence;
     }
