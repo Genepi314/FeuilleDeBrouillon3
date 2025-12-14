@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class DialogueTrigger : MonoBehaviour
 {
+    // [SerializeField] OgreStop ogrestop;
     [SerializeField] DialogueDisplayer dialogueDisplayer;
     [SerializeField] ByTileController playerController;
     [SerializeField] private NPCDials npcStory;
@@ -27,31 +28,14 @@ public class DialogueTrigger : MonoBehaviour
     }
     public void ButtonInteractPressed()
     {
-        if (dialoguePossible)
+        if (dialoguePossible) // Ajouter logique des dialogues ici. Idéalement ce serait mieux d'avoir un fichier à part qui "feed" cette fonction.
         {
+            // Debug.Log("From dialogueTrigger, ButtonInteractPressed, DialoguePossible");
+            // Debug.Log("Here's the dialogueDisplayer : " + dialogueDisplayer.name);
 
-            Debug.Log("From dialogueTrigger, ButtonInteractPressed, DialoguePossible");
-            // Debug.Log("nom du gameObject parent : " + transform.parent.gameObject.name);
-            // if (transform.parent.gameObject.name == "Circle")
-
-            dialogueDisplayer.SetDialogue(npcStory.npcDials[0]);
-            Debug.Log("Here's the dialogueDisplayer : " + dialogueDisplayer.name);
+            // ogrestop.OgreStopSinging();
+            dialogueDisplayer.SetDialogue(npcStory);
             dialogueDisplayer.DisplayDialogue();
-                // DialTracker.talkedToCircle = true;
-
-            // else if(transform.parent.gameObject.name == "Square")
-            // {
-            //     if(DialTracker.talkedToCircle == false)
-            //     {
-            //         dialogueDisplayer.SetDialogue(npcStory.npcDials[0]);
-            //         dialogueDisplayer.DisplayDialogue();
-            //     }
-            //     else
-            //     {
-            //         dialogueDisplayer.SetDialogue(npcStory.npcDials[1]);
-            //         dialogueDisplayer.DisplayDialogue();
-            //     }
-            // }
         }
     }
 }

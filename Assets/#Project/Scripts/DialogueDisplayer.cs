@@ -2,6 +2,7 @@ using UnityEngine;
 using TMPro;
 using Unity.VisualScripting;
 using System.Collections.Generic;
+using UnityEngine.Events;
 
 public class DialogueDisplayer : MonoBehaviour
 {
@@ -12,12 +13,16 @@ public class DialogueDisplayer : MonoBehaviour
 
     // DialogueObject to display, gotten through public function SetDialogue() via NPCs
     private Dialogue currentDialogue;
+    private NPCDials currentNpcStory;
+
+    // Unity Event for Ogre:
+    public UnityEvent OnOgreStopSinging;
+    public UnityEvent OnOgreStartSinging;
 
     // Variables for moving through the dialogueLines
     private int dialogueStartIndex = 0;
     private int nextLineIndex;
-    private bool dialogueStarted = false;
-
+    private bool dialogueStarted = false; 
 
 
     public void DisplayDialogue()
@@ -37,6 +42,7 @@ public class DialogueDisplayer : MonoBehaviour
         if (currentDialogue.dialogue.Count < nextLineIndex)
         {
             EndDialogue();
+
             dialogueStarted = false;
             nextLineIndex = dialogueStartIndex;
         }
@@ -44,6 +50,8 @@ public class DialogueDisplayer : MonoBehaviour
 
     private void StartDialogue()
     {
+        if (currentNpcStory.name == "OgreDials") OnOgreStopSinging.Invoke();
+
         dialogueDisplay.SetActive(true);
         Debug.Log("Entered StartDialogue()");
         characterNameArea.text = currentDialogue.dialogue[0].characterName;
@@ -52,12 +60,16 @@ public class DialogueDisplayer : MonoBehaviour
 
     private void EndDialogue()
     {
+        if (currentNpcStory.name == "OgreDials") OnOgreStartSinging.Invoke();
+
         dialogueDisplay.SetActive(false);
+        currentNpcStory = null;
+        currentDialogue = null;
     }
 
-    // Utilisé par les DialogueTriggers:
-    public void SetDialogue(Dialogue currentDialogue)
+    public void SetDialogue(NPCDials npcStory) // Utilisée par les DialogueTriggers
     {
-        this.currentDialogue = currentDialogue;
+        this.currentNpcStory = npcStory;
+        this.currentDialogue = npcStory.npcDials[0];
     }
 }

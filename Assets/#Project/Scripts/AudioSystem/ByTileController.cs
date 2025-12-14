@@ -61,7 +61,6 @@ public class ByTileController : MonoBehaviour
 
     private IEnumerator Move()
     {
-
         isMoving = true;
         float elapsedTime = 0;
 
@@ -98,8 +97,6 @@ public class ByTileController : MonoBehaviour
 
         isMoving = false;
     }
-
-
 
     private void OnInteract(InputAction.CallbackContext context)
     {
