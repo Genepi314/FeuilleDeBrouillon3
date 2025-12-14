@@ -25,8 +25,6 @@ public class Recorder : MonoBehaviour
     // private float unityStartTime; 
     // private float unityEndTime;
 
-    
-
     public void OnRecordButtonPressed()
     {
         if(audioTrigger != null)
@@ -43,7 +41,6 @@ public class Recorder : MonoBehaviour
         // audioToPlayer = this.audioSource.transform.position - gameObject.transform.position;
 
         // STYLE 2
-
         Tape tape = new Tape();
         tape.audioSource = audioSource;
         tape.sampleStartTime = audioSource.time;

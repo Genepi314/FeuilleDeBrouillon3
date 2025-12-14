@@ -1,7 +1,7 @@
 using UnityEngine;
 using TMPro;
 using Unity.VisualScripting;
-using System.Collections.Generic;
+using System.Collections;
 using UnityEngine.Events;
 
 public class DialogueDisplayer : MonoBehaviour
@@ -52,11 +52,18 @@ public class DialogueDisplayer : MonoBehaviour
     {
         // Debug.Log("Entered StartDialogue()");
         
-        if (currentNpcStory.name == "OgreDials") OnOgreStopSinging.Invoke();
+        if (currentNpcStory.name == "OgreDials") 
+        {
+            OnOgreStopSinging.Invoke();
+            StartCoroutine(DelayBeforeDisplay());
+        }
 
-        dialogueDisplay.SetActive(true);
-        characterNameArea.text = currentDialogue.dialogue[0].characterName;
-        dialogueLineArea.text = currentDialogue.dialogue[0].sentence;
+        else
+        {
+            dialogueDisplay.SetActive(true);
+            characterNameArea.text = currentDialogue.dialogue[0].characterName;
+            dialogueLineArea.text = currentDialogue.dialogue[0].sentence;
+        }
     }
 
     private void EndDialogue()
@@ -72,5 +79,14 @@ public class DialogueDisplayer : MonoBehaviour
     {
         this.currentNpcStory = npcStory;
         this.currentDialogue = npcStory.npcDials[0];
+    }
+
+    // Rien que pour Ogre...
+    private IEnumerator DelayBeforeDisplay()
+    {
+        yield return new WaitForSeconds(1f);
+        dialogueDisplay.SetActive(true);
+        characterNameArea.text = currentDialogue.dialogue[0].characterName;
+        dialogueLineArea.text = currentDialogue.dialogue[0].sentence;
     }
 }

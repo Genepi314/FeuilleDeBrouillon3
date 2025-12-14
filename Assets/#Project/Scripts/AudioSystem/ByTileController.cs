@@ -100,7 +100,7 @@ public class ByTileController : MonoBehaviour
 
     private void OnInteract(InputAction.CallbackContext context)
     {
-        if (dialogueTrigger is not null)
+        if (dialogueTrigger != null)
             {
                 dialogueTrigger.ButtonInteractPressed();
             }
