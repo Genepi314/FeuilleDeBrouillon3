@@ -20,11 +20,10 @@ MonoBehaviour:
       sentence: "Je ne voudrais pas para\xEEtre d\xE9sagr\xE9able, mais tu vois,
         je suis en train de r\xE9p\xE9ter une pi\xE8ce difficile."
     - characterName: Ogre
-      sentence: "Pourrais-tu s'il-te-pla\xEEt me laisser \xE0 moi-m\xEAme dans la
-        splendeur de ces bois ?"
+      sentence: Voudrais-tu bien me laisser seul dans la splendeur de ces bois ?
     - characterName: Ogre
-      sentence: "Je ne peux bien travailler que dans une atmosph\xE8re calme, comme
-        celle-ci."
+      sentence: "Je ne peux bien travailler que dans une atmosph\xE8re calme et sans
+        distraction, comme celle-ci."
     - characterName: Ogre
       sentence: Allez, du vent !
     hasBeenPlayed: 0

@@ -2,6 +2,7 @@ using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class ByTileController : MonoBehaviour
 {
@@ -40,6 +41,7 @@ public class ByTileController : MonoBehaviour
         actions.FindActionMap("Player").Enable();
         actions.FindActionMap("Player").FindAction("Interact").performed += OnInteract;        
         actions.FindActionMap("Player").FindAction("Record").performed += OnRecordButton;   
+        actions.FindActionMap("Player").FindAction("Quit").performed += QuitApp;   
         // actions.FindActionMap("Player").FindAction("Play").performed += OnPlayButton;   // Pour Recorder Style 1
     }
 
@@ -123,5 +125,10 @@ public class ByTileController : MonoBehaviour
     {
         // Debug.Log("Entered RemoveDialogueTrigger()");
         dialogueTrigger = null;
+    }
+
+    private void QuitApp(InputAction.CallbackContext context)
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 }

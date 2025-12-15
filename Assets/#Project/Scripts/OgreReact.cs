@@ -38,13 +38,14 @@ public class OgreReact : MonoBehaviour
         else ogreDirection = 1;
         OgreMoves = true;
         StartCoroutine(OgreDeath());
+        fullOgre.GetComponentInChildren<AudioSource>().Stop();
     }
 
     void Update()
     {
         if (OgreMoves)
         {
-            this.GetComponentInParent<Rigidbody2D>().MovePosition(transform.parent.position + new Vector3(20, 0, 0) * ogreDirection * Time.deltaTime * moveSpeed);
+            this.GetComponentInParent<Rigidbody2D>().MovePosition(transform.parent.position + new Vector3(15, 0, 0) * ogreDirection * Time.deltaTime * moveSpeed);
         }
     }
 

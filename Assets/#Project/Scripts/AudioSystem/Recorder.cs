@@ -9,6 +9,9 @@ using UnityEngine.UIElements;
 
 public class Recorder : MonoBehaviour
 {
+    // Pour pastille rouge quand on enregistre:
+    [SerializeField] private GameObject recorderDisplay;
+
     // POUR LA RéACTION DE OGRE
     [SerializeField] private OgreReact ogre;
 
@@ -44,6 +47,7 @@ public class Recorder : MonoBehaviour
         // audioToPlayer = this.audioSource.transform.position - gameObject.transform.position;
 
         // STYLE 2
+        recorderDisplay.SetActive(true);
         Tape tape = new Tape();
         tape.audioSource = audioSource;
         tape.sampleStartTime = audioSource.time;
@@ -70,6 +74,7 @@ public class Recorder : MonoBehaviour
         TrackList.tapes.Last().unityEndTime = Time.time; // Le temps qu'il était dans Unity quand l'enregistrement de l'audioSource s'est terminé.
         // Debug.Log("clip enregistré dans Tracklist sous l'index Last() : " + TrackList.tapes.Last().audioSource.clip);
         }
+        recorderDisplay.SetActive(false);
     }
 
     public void PlayRecord(int buttonIndex)

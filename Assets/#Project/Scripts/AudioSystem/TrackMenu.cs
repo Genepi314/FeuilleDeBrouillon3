@@ -35,24 +35,30 @@ public class TrackMenu : MonoBehaviour
 
     void OnEnable()
     {
-        
-        // Calcul for size of the panel
-        buttonXSize = buttonPrefab.GetComponent<RectTransform>().sizeDelta.x;
-        buttonYSize = buttonPrefab.GetComponent<RectTransform>().sizeDelta.y;
-        panelYOffset = buttonOffset * -1; // because need to convert from neg to pos value for sizing
-        panelXSize = buttonXSize + panelXOffset * 2;
-        panelYSize = (buttonYSize + panelYOffset) * TrackList.tapes.Count + panelYOffset;
+        if(TrackList.tapes.Count == 0) return;
+        else
+        {
+            // Calcul for size of the panel
+            buttonXSize = buttonPrefab.GetComponent<RectTransform>().sizeDelta.x;
+            buttonYSize = buttonPrefab.GetComponent<RectTransform>().sizeDelta.y;
+            panelYOffset = buttonOffset * -1; // because need to convert from neg to pos value for sizing
+            panelXSize = buttonXSize + panelXOffset * 2;
+            panelYSize = (buttonYSize + panelYOffset) * TrackList.tapes.Count + panelYOffset;
 
-        createButtons();
-        // Adapt panel size to number of tracks to display
-        panel.GetComponent<RectTransform>().sizeDelta = new Vector2(panelXSize, panelYSize);
+            createButtons();
+            // Adapt panel size to number of tracks to display
+            panel.GetComponent<RectTransform>().sizeDelta = new Vector2(panelXSize, panelYSize);
+        }   
     }
 
     void OnDisable()
     {
-        foreach(GameObject go in buttonList)
+        if(buttonList == null)
         {
-            Destroy(go);
+            foreach(GameObject go in buttonList)
+            {
+                Destroy(go);
+            }
         }
     }
 
