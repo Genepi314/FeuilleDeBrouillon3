@@ -15,7 +15,7 @@ MonoBehaviour:
   npcDials:
   - dialogue:
     - characterName: Small Demon
-      sentence: This dude's been singing the whole day now.
+      sentence: "Ah, ce gars n'arr\xEAte pas de chanter depuis des jours sans s'arr\xEAter."
     - characterName: Small Demon
-      sentence: I can't take it anymore !
+      sentence: J'en peux plus !
     hasBeenPlayed: 0

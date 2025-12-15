@@ -33,7 +33,7 @@ public class DialogueTrigger : MonoBehaviour
     {
         if (dialoguePossible) // Ajouter logique des dialogues ici. Idéalement ce serait mieux d'avoir un fichier à part qui "feed" cette fonction.
         {
-            Debug.Log("From dialogueTrigger, ButtonInteractPressed, DialoguePossible");
+            // Debug.Log("From dialogueTrigger, ButtonInteractPressed, DialoguePossible");
             // Debug.Log("Here's the dialogueDisplayer : " + dialogueDisplayer.name);
 
             dialogueDisplayer.SetDialogue(npcStory);

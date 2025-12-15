@@ -10,13 +10,13 @@ public class WoodsAudioBounds : MonoBehaviour
     {
         if(collision.CompareTag("Player") && collision.transform.position.y < gameObject.transform.position.y)
         {
-            Debug.Log("Player is lower than woodsAudioBounds");
+            // Debug.Log("Player is lower than woodsAudioBounds");
             ogreAudio.gameObject.SetActive(false);
             woodsAudio.Stop();
         }
         if(collision.CompareTag("Player") && collision.transform.position.y > gameObject.transform.position.y)
         {
-            Debug.Log("Player is higher than woodsAudioBounds");
+            // Debug.Log("Player is higher than woodsAudioBounds");
             ogreAudio.gameObject.SetActive(true);
             woodsAudio.Play();
         }

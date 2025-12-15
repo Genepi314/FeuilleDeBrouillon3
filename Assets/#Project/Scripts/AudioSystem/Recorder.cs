@@ -4,18 +4,21 @@ using System.Collections.Generic;
 using System.Linq;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UIElements;
 
 public class Recorder : MonoBehaviour
 {
+    // POUR LA RéACTION DE OGRE
+    [SerializeField] private OgreReact ogre;
+
     // Moyen le plus simple de faire passer un audioTrigger au Recorder. Mais est-ce que c'est un problème ? Sachant que par la suite la classe sera probablement statique, je dirais que ça passe :
     [HideInInspector] public AudioTrigger audioTrigger;
-
+    [HideInInspector] public AudioSource TrackToPlay {get; private set;} //For OgreReact
     private Vector3 audioToPlayer;
-    private AudioSource trackToPlay; 
     private Tape recordedTape; 
     private float delay;
-    private bool isPlaying;
+    private bool trackIsPlaying;
 
     // // VARIABLES POUR STYLE 1, c'est à dire avant l'invention des tapes.
     // private AudioSource recordedTrack; 
@@ -92,19 +95,22 @@ public class Recorder : MonoBehaviour
         recordedTape = TrackList.tapes[buttonIndex];
         }
 
-        if (recordedTape.audioSource != null && !isPlaying && trackToPlay == null) // Conditions à revoir.
+        if (recordedTape.audioSource != null && !trackIsPlaying && TrackToPlay == null) // Conditions à revoir.
         {
 
             // Debug.Log("Entered PlayRecord(), recordedTape.audioSource.clip = " + recordedTape.audioSource.clip);
 
             // Après ça il reste du boulot pour tout "traduire" en tape (Parce que ci-dessous, c'est fait directement sur l'audioSource passée).
-            trackToPlay = Instantiate(recordedTape.audioSource);
-            trackToPlay.time = recordedTape.sampleStartTime;
-            trackToPlay.transform.position = gameObject.transform.position + recordedTape.distanceToPlayer;
+            TrackToPlay = Instantiate(recordedTape.audioSource);
+            TrackToPlay.time = recordedTape.sampleStartTime;
+            TrackToPlay.transform.position = gameObject.transform.position + recordedTape.distanceToPlayer;
 
-            trackToPlay.Play();
-            isPlaying = true;
+            TrackToPlay.Play();
+            trackIsPlaying = true;
             StartCoroutine(EndOfSample(recordedTape));
+
+            // Test voir si cet événement fonctionne.
+            if (ogre.inOgreZone && TrackToPlay.clip.name == "carEngine") ogre.OnOgreCutscene(); 
             // Debug.Log("entered PlayRecord()");
         }
 
@@ -123,9 +129,9 @@ public class Recorder : MonoBehaviour
         // STYLE 1
         delay = currentTape.unityEndTime - currentTape.unityStartTime;
         yield return new WaitForSeconds(delay);
-        trackToPlay.Stop();
-        Destroy(trackToPlay);
-        isPlaying = false;
+        TrackToPlay.Stop();
+        Destroy(TrackToPlay);
+        trackIsPlaying = false;
         delay = 0;
     }
 }

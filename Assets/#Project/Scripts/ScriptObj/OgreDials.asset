@@ -15,13 +15,16 @@ MonoBehaviour:
   npcDials:
   - dialogue:
     - characterName: Ogre
-      sentence: Hi little one.
+      sentence: Bonjour gamin.
     - characterName: Ogre
-      sentence: I don't mean to be harsh, but I'm currently rehearsing quite a difficult
-        piece.
+      sentence: "Je ne voudrais pas para\xEEtre d\xE9sagr\xE9able, mais tu vois,
+        je suis en train de r\xE9p\xE9ter une pi\xE8ce difficile."
     - characterName: Ogre
-      sentence: 'Could you please leave me alone in the splendor of these of these
-        woods ? '
+      sentence: "Pourrais-tu s'il-te-pla\xEEt me laisser \xE0 moi-m\xEAme dans la
+        splendeur de ces bois ?"
     - characterName: Ogre
-      sentence: I can only practice in a peaceful atmosphere like this one.
+      sentence: "Je ne peux bien travailler que dans une atmosph\xE8re calme, comme
+        celle-ci."
+    - characterName: Ogre
+      sentence: Allez, du vent !
     hasBeenPlayed: 0

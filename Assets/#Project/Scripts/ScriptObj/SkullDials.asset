@@ -15,11 +15,11 @@ MonoBehaviour:
   npcDials:
   - dialogue:
     - characterName: Skull
-      sentence: I wanna be a singer too when I grow up !
+      sentence: "Moi aussi je voudrais \xEAtre une chanteuse quand je serai grande."
     - characterName: Skull
-      sentence: That's why I'm practicing, just like Ogre.
+      sentence: "C'est pour \xE7a que je m'entra\xEEne, comme Ogre !"
     - characterName: Skull
-      sentence: But that's tough man...
+      sentence: Mais c'est dur...
     - characterName: Skull
-      sentence: Better go back to it !
+      sentence: Je ferais mieux de m'y remettre !
     hasBeenPlayed: 0

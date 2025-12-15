@@ -15,5 +15,5 @@ MonoBehaviour:
   npcDials:
   - dialogue:
     - characterName: Dragonia
-      sentence: I think I see what he's trying to do.
+      sentence: "Mmh, je crois que je vois ce qu\xECil essaie de faire."
     hasBeenPlayed: 0
